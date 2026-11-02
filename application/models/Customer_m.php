@@ -279,7 +279,7 @@ class Customer_m extends CI_Model
             'email' => $post['email'],
             'no_wa' => $post['no_wa'],
             'coverage' => $post['coverage'],
-            'codeunique' => $post['codeunique'],
+            'codeunique' => isset($post['codeunique']) ? $post['codeunique'] : 0,
             'type_id' => $post['type_id'],
             'auto_isolir' => $post['auto_isolir'],
             'due_date' => $post['due_date'],

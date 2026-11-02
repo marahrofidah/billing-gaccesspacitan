@@ -14,10 +14,10 @@
                                 <option value="">-Pilih-</option>
                                 <?php if ($customer->coverage != 0) { ?>
                                     <?php $datacoverage = $this->db->get_where('coverage', ['coverage_id' => $customer->coverage])->row_array(); ?>
-                                    <option value="<?= $customer->coverage ?>"><?= $datacoverage['code_area'] ?> - <?= $datacoverage['c_name'] ?></option>
+                                    <option value="<?= $customer->coverage ?>" <?= set_select('coverage', $customer->coverage) ?>><?= $datacoverage['code_area'] ?> - <?= $datacoverage['c_name'] ?></option>
                                 <?php } ?>
                                 <?php foreach ($coverage as $data) { ?>
-                                    <option value="<?= $data->coverage_id ?>"><?= $data->code_area ?> - <?= $data->c_name ?></option>
+                                    <option value="<?= $data->coverage_id ?>" <?= set_select('coverage', $data->coverage_id) ?>><?= $data->code_area ?> - <?= $data->c_name ?></option>
                                 <?php } ?>
                             </select>
                         </div>
@@ -105,7 +105,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col"><label for="paket">Paket Langganan</label></div>
-                            <div class="col"> <input type="checkbox" name="getallpackage" id="getallpackage"> <label for="">Tampil Semua Paket</label></div>
+                            <div class="col"> <input type="checkbox" name="getallpackage" id="getallpackage" value="1" <?= set_checkbox('getallpackage', '1') ?>> <label for="">Tampil Semua Paket</label></div>
                         </div>
                         <select name="paket" id="datapackage" class="form-control datapackage" required onChange="selectpackage(this);">
                         </select>
@@ -118,7 +118,7 @@
                         <select name="paket" id="paket" class="form-control" required>
                             <option value="">-Pilih-</option>
                             <?php foreach ($item as $item) { ?>
-                                <option value="<?= $item->p_item_id ?>"><?= $item->name ?> - Rp. <?= indo_currency($item->price); ?></option>
+                                <option value="<?= $item->p_item_id ?>" <?= set_select('paket', $item->p_item_id) ?>><?= $item->name ?> - Rp. <?= indo_currency($item->price); ?></option>
                             <?php } ?>
                         </select>
                     </div>
@@ -128,26 +128,9 @@
                     <input type="text" id="datepicker" name="register_date" autocomplete="off" class="form-control" value="<?= set_value('register_date') ?>">
                     <?= form_error('register_date', '<small class="text-danger pl-3 ">', '</small>') ?>
                 </div>
-                <div class="form-group row">
-
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <div class="form-group">
-                            <label for="email">Email</label> *
-                            <input type="text" id="email" name="email" class="form-control" value="<?= set_value('email') ?>">
-                            <?= form_error('email', '<small class="text-danger pl-3 ">', '</small>') ?>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <label for="password">Password</label> <span>default : 1234</span>
-                        <input type="password" class="form-control form-control-user" id="Password1" name="password1" placeholder="Password" value="1234">
-                        <?= form_error('password1', '<small class="text-danger pl-3 ">', '</small>') ?>
-                    </div>
-
-                </div>
                 <?php $wa = $this->db->get('whatsapp')->row_array() ?>
                 <?php if ($wa['is_active'] == 1) { ?>
-                    <input type="checkbox" name="sendwa" id="sendwa"> <label for="">Kirim Data Email & Password ke WA Pelanggan</label>
+                    <input type="checkbox" name="sendwa" id="sendwa" value="1" <?= set_checkbox('sendwa', '1') ?>> <label for="">Kirim notifikasi pelanggan ke WA</label>
                 <?php } ?>
 
                 <div class="form-group">
@@ -156,17 +139,17 @@
                 </div>
                 <div class="loadingwa"></div>
 
-                <input type="hidden" name="sendwapelanggan" id="sendwapelanggan">
+                <input type="hidden" name="sendwapelanggan" id="sendwapelanggan" value="<?= set_value('sendwapelanggan', '0') ?>">
                 <input type="hidden" name="vendor" id="vendor" value="<?= $wa['vendor'] ?>">
                 <label for="no_ktp">ID Card</label>
                 <div class="form-group row">
                     <div class="col-sm-4 mb-3 mb-sm-0">
                         <select name="type_id" id="type_id" class="form-control" required>
-                            <option value="">-Pilih-</option>
-                            <option value="KTP">KTP</option>
-                            <option value="SIM">SIM</option>
-                            <option value="NPWP">NPWP</option>
-                            <option value="Pasport">Pasport</option>
+                            <option value="" <?= set_select('type_id', '') ?>>-Pilih-</option>
+                            <option value="KTP" <?= set_select('type_id', 'KTP') ?>>KTP</option>
+                            <option value="SIM" <?= set_select('type_id', 'SIM') ?>>SIM</option>
+                            <option value="NPWP" <?= set_select('type_id', 'NPWP') ?>>NPWP</option>
+                            <option value="Pasport" <?= set_select('type_id', 'Pasport') ?>>Pasport</option>
                         </select>
                     </div>
                     <div class="col-sm-8">
@@ -185,11 +168,11 @@
                         <div class="form-group">
                             <label for="status">Status Berlangganan</label>
                             <select name="status" id="" class="form-control" required>
-                                <option value="">-Pilih-</option>
-                                <option value="Aktif">Aktif</option>
-                                <option value="Non-Aktif">Non-Aktif</option>
-                                <option value="Menunggu">Menunggu</option>
-                                <option value="Free">Free</option>
+                                <option value="" <?= set_select('status', '') ?>>-Pilih-</option>
+                                <option value="Aktif" <?= set_select('status', 'Aktif') ?>>Aktif</option>
+                                <option value="Non-Aktif" <?= set_select('status', 'Non-Aktif') ?>>Non-Aktif</option>
+                                <option value="Menunggu" <?= set_select('status', 'Menunggu') ?>>Menunggu</option>
+                                <option value="Free" <?= set_select('status', 'Free') ?>>Free</option>
                             </select>
                         </div>
                     </div>
@@ -197,33 +180,33 @@
                         <div class="form-group">
                             <label for="ppn">Status PPN</label>
                             <select class="form-control" id="ppn" name="ppn" required>
-                                <option value="">-Pilih-</option>
-                                <option value="1">Aktif</option>
-                                <option value="0">Tidak Aktif</option>
+                                <option value="" <?= set_select('ppn', '') ?>>-Pilih-</option>
+                                <option value="1" <?= set_select('ppn', '1') ?>>Aktif</option>
+                                <option value="0" <?= set_select('ppn', '0') ?>>Tidak Aktif</option>
                             </select>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="address">Alamat</label>
-                    <textarea id="address" name="address" class="form-control"></textarea>
+                    <textarea id="address" name="address" class="form-control"><?= set_value('address') ?></textarea>
                 </div>
                 <div class="form-group">
                     <label for="description">Keterangan</label>
-                    <textarea name="cust_description" class="form-control" id="" placeholder="info yg berkaitan dengan pelanggan"></textarea>
+                    <textarea name="cust_description" class="form-control" id="" placeholder="info yg berkaitan dengan pelanggan"><?= set_value('cust_description') ?></textarea>
                 </div>
                 <div class="row">
-                    <div class="col"> <input type="checkbox" name="createbill" id="createbill"> <label for="">Buat Tagihan </label></div>
+                    <div class="col"> <input type="checkbox" name="createbill" id="createbill" value="1" <?= set_checkbox('createbill', '1') ?>> <label for="">Buat Tagihan </label></div>
                 </div>
                 <div id="formcreatebill" style="display: none">
                     Periode
                     <div class="row">
-                        <div class="col"> <input type="checkbox" name="thismonth" id="thismonth"> <label for="">Bulan Ini</label></div>
-                        <div class="col"> <input type="checkbox" name="nextmonth" id="nextmonth"> <label for="">Bulan Depan</label></div>
+                        <div class="col"> <input type="checkbox" name="thismonth" id="thismonth" value="1" <?= set_checkbox('thismonth', '1') ?>> <label for="">Bulan Ini</label></div>
+                        <div class="col"> <input type="checkbox" name="nextmonth" id="nextmonth" value="1" <?= set_checkbox('nextmonth', '1') ?>> <label for="">Bulan Depan</label></div>
                     </div>
                     <div class="row">
-                        <div class="col"> <input type="checkbox" name="fullbill" id="fullbill"> <label for="">Full</label></div>
-                        <div class="col"> <input type="checkbox" name="proratabill" id="proratabill"> <label for="">Prorata</label></div>
+                        <div class="col"> <input type="checkbox" name="fullbill" id="fullbill" value="1" <?= set_checkbox('fullbill', '1') ?>> <label for="">Full</label></div>
+                        <div class="col"> <input type="checkbox" name="proratabill" id="proratabill" value="1" <?= set_checkbox('proratabill', '1') ?>> <label for="">Prorata</label></div>
                     </div>
                 </div>
                 <div class="" id="remarkfullbill" style="display: none">
@@ -233,7 +216,7 @@
                     <div class="col-sm-6 mb-3 mb-sm-0">
                         <div class="form-group">
                             <label for="">Total Hari Pemakaian</label>
-                            <input type="number" name="countdate" class="form-control" min="1" max="31">
+                            <input type="number" name="countdate" class="form-control" min="1" max="31" value="<?= set_value('countdate') ?>">
                         </div>
                     </div>
 
@@ -252,8 +235,8 @@
                         <div class="form-group">
                             <label for="type_payment">Jenis Pembayaran</label>
                             <select name="type_payment" id="type_payment" class="form-control" required onChange="selectisolir(this);">
-                                <option value="0">Pasca Bayar</option>
-                                <option value="1">Prabayar</option>
+                                <option value="0" <?= set_select('type_payment', '0', true) ?>>Pasca Bayar</option>
+                                <option value="1" <?= set_select('type_payment', '1') ?>>Prabayar</option>
                             </select>
                         </div>
                     </div>
@@ -268,8 +251,8 @@
                         <div class="form-group">
                             <label for="month_due_date">Bulan Jatuh Tempo</label>
                             <select name="month_due_date" id="month_due_date" class="form-control" required>
-                                <option value="0">Sesuai Periode Tagihan</option>
-                                <option value="1">1 bulan dari periode</option>
+                                <option value="0" <?= set_select('month_due_date', '0', true) ?>>Sesuai Periode Tagihan</option>
+                                <option value="1" <?= set_select('month_due_date', '1') ?>>1 bulan dari periode</option>
                             </select>
                         </div>
 
@@ -285,16 +268,16 @@
                             <div class="form-group">
                                 <label for="auto_isolir">Auto Isolir</label>
                                 <select name="auto_isolir" id="autoisolir" class="form-control" required onChange="selectisolir(this);">
-                                    <option value="">-Pilih-</option>
-                                    <option value="1">Aktif</option>
-                                    <option value="0">Tidak Aktif</option>
+                                    <option value="" <?= set_select('auto_isolir', '') ?>>-Pilih-</option>
+                                    <option value="1" <?= set_select('auto_isolir', '1') ?>>Aktif</option>
+                                    <option value="0" <?= set_select('auto_isolir', '0') ?>>Tidak Aktif</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-6 mb-3 mb-sm-0" id="maxdueisolir" style="display: none">
                             <div class="form-group">
                                 <label for="max_due_isolir">Max Isolir</label> <span> tambah hari dari jatuh tempo</span>
-                                <input type="number" name="max_due_isolir" min="0" value="0" class="form-control">
+                                <input type="number" name="max_due_isolir" min="0" value="<?= set_value('max_due_isolir', '0') ?>" class="form-control">
                             </div>
                         </div>
 
@@ -302,8 +285,8 @@
 
                     <div id="selectactionisolir" class="form-group" style="display: none">
                         <div class="row">
-                            <div class="col"> <input type="checkbox" name="disableuser" id="disableuser"> <label for="">Disable User</label></div>
-                            <div class="col"> <input type="checkbox" name="changeprofile" id="changeprofile"> <label for="">Ganti Profile</label></div>
+                            <div class="col"> <input type="checkbox" name="disableuser" id="disableuser" value="1" <?= set_checkbox('disableuser', '1') ?>> <label for="">Disable User</label></div>
+                            <div class="col"> <input type="checkbox" name="changeprofile" id="changeprofile" value="1" <?= set_checkbox('changeprofile', '1') ?>> <label for="">Ganti Profile</label></div>
                         </div>
                     </div>
                     <div class="row container" id="remarkchangeprofile" style="display: none">
@@ -320,14 +303,14 @@
                         <li> Untuk Mode Standalone akan otomatis disable Interface router pelanggan</li>
                         <br>
                     </div>
-                    <input type="hidden" name="action" id="actionisolir" placeholder="Action Isolir" class="form-control">
+                    <input type="hidden" name="action" id="actionisolir" placeholder="Action Isolir" class="form-control" value="<?= set_value('action') ?>">
 
                     <div class="form-group">
                         <label for="router">Router</label>
                         <select name="router" id="router" class="form-control" onChange="selectrouter(this);">
                             <option value="">-Pilih-</option>
                             <?php foreach ($listrouter as $router) { ?>
-                                <option value="<?= $router->id ?>"><?= $router->alias; ?> - <?= $router->ip_address; ?></option>
+                                <option value="<?= $router->id ?>" <?= set_select('router', $router->id) ?>><?= $router->alias; ?> - <?= $router->ip_address; ?></option>
                             <?php } ?>
                         </select>
                     </div>
@@ -337,21 +320,21 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <div class="col"> <input type="checkbox" name="createusermikrotik" id="createusermikrotik"> <label for="">Create New</label></div>
-                            <div class="col"> <input type="checkbox" name="sinkronisasi" id="sinkronisasi"> <label for="">Sinkronisasi</label></div>
+                            <div class="col"> <input type="checkbox" name="createusermikrotik" id="createusermikrotik" value="1" <?= set_checkbox('createusermikrotik', '1') ?>> <label for="">Create New</label></div>
+                            <div class="col"> <input type="checkbox" name="sinkronisasi" id="sinkronisasi" value="1" <?= set_checkbox('sinkronisasi', '1') ?>> <label for="">Sinkronisasi</label></div>
                         </div>
                     </div>
-                    <input type="hidden" name="createnew" id="createnew">
-                    <input type="hidden" name="sinkron" id="sinkron">
+                    <input type="hidden" name="createnew" id="createnew" value="<?= set_value('createnew') ?>">
+                    <input type="hidden" name="sinkron" id="sinkron" value="<?= set_value('sinkron') ?>">
                     <div class="form-group">
                         <div id="modeuser" style="display: none">
                             <label for="mode_user">Mode User</label>
                             <select name="mode_user" id="mode_user" class="form-control" onChange="selectmode(this);">
-                                <option value="">-Pilih-</option>
-                                <option value="Hotspot">Hotspot</option>
-                                <option value="PPPOE">PPPOE</option>
-                                <option value="Static">Static</option>
-                                <option value="Standalone">Standalone</option>
+                                <option value="" <?= set_select('mode_user', '') ?>>-Pilih-</option>
+                                <option value="Hotspot" <?= set_select('mode_user', 'Hotspot') ?>>Hotspot</option>
+                                <option value="PPPOE" <?= set_select('mode_user', 'PPPOE') ?>>PPPOE</option>
+                                <option value="Static" <?= set_select('mode_user', 'Static') ?>>Static</option>
+                                <option value="Standalone" <?= set_select('mode_user', 'Standalone') ?>>Standalone</option>
                             </select>
                         </div>
                     </div>
@@ -359,8 +342,8 @@
                         <div id="type_ip" style="display: none">
                             <label for="type_ip">Type IP</label>
                             <select name="type_ip" id="typeip" class="form-control" onChange="selecttypeip(this);">
-                                <option value="0">DHCP</option>
-                                <option value="1">Static</option> <span style="font-size: small;">From remote address</span>
+                                <option value="0" <?= set_select('type_ip', '0', true) ?>>DHCP</option>
+                                <option value="1" <?= set_select('type_ip', '1') ?>>Static</option> <span style="font-size: small;">From remote address</span>
                             </select>
                         </div>
                     </div>
@@ -383,7 +366,7 @@
                         <div id="formprofile" style="display: none">
                             <div class="form-group">
                                 <label>User Profile</label>
-                                <input type="text" name="userprofilesinkron" readonly id="userprofilesinkron" value="" placeholder="User Profile Untuk Open Isolir" class="form-control">
+                                <input type="text" name="userprofilesinkron" readonly id="userprofilesinkron" value="<?= set_value('userprofilesinkron') ?>" placeholder="User Profile Untuk Open Isolir" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -403,13 +386,13 @@
                         <div class="col">
                             <div id="localaddress" style="display: none">
                                 <label>Local Address</label>
-                                <input type="text" name="localaddress" class="form-control">
+                                <input type="text" name="localaddress" class="form-control" value="<?= set_value('localaddress') ?>">
                             </div>
                         </div>
                         <div class="col">
                             <div id="remoteaddress" style="display: none">
                                 <label>Remote Address</label>
-                                <input type="text" name="remoteaddress" class="form-control">
+                                <input type="text" name="remoteaddress" class="form-control" value="<?= set_value('remoteaddress') ?>">
                             </div>
                         </div>
                     </div>
@@ -417,18 +400,18 @@
                         <div class="col">
                             <div id="target" style="display: none">
                                 <label>Target IP</label>
-                                <input type="text" name="target" class="form-control">
+                                <input type="text" name="target" class="form-control" value="<?= set_value('target') ?>">
                             </div>
                         </div>
                         <div class="col">
                             <div id="uploadlimit" style="display: none">
                                 <label>Limit Upload</label>
                                 <div class="input-group mb-3">
-                                    <input type="number" min="1" name="uploadlimit" class="form-control">
+                                    <input type="number" min="1" name="uploadlimit" class="form-control" value="<?= set_value('uploadlimit') ?>">
                                     <div class="input-group-append">
                                         <select name="upload" id="upload" class="form-control">
-                                            <option value="K">Kb</option>
-                                            <option value="M">Mb</option>
+                                            <option value="K" <?= set_select('upload', 'K', true) ?>>Kb</option>
+                                            <option value="M" <?= set_select('upload', 'M') ?>>Mb</option>
                                         </select>
                                     </div>
                                 </div>
@@ -438,11 +421,11 @@
                             <div id="downloadlimit" style="display: none">
                                 <label>Limit Download</label>
                                 <div class="input-group mb-3">
-                                    <input type="number" min="1" name="downloadlimit" class="form-control">
+                                    <input type="number" min="1" name="downloadlimit" class="form-control" value="<?= set_value('downloadlimit') ?>">
                                     <div class="input-group-append">
                                         <select name="download" id="download" class="form-control">
-                                            <option value="K">Kb</option>
-                                            <option value="M">Mb</option>
+                                            <option value="K" <?= set_select('download', 'K', true) ?>>Kb</option>
+                                            <option value="M" <?= set_select('download', 'M') ?>>Mb</option>
                                         </select>
                                     </div>
                                 </div>
@@ -464,20 +447,6 @@
                     <input type="hidden" name="action" value="0">
 
                 <?php } ?>
-
-                <div class="form-group">
-                    <label for="codeunique">Code Unique</label> <span style="font-size: smaller;">Hanya recehan </span>
-                    <select name="codeunique" id="autoisolir" class="form-control" required>
-                        <option value="">-Pilih-</option>
-                        <option value="1">Active</option>
-                        <option value="0">Non-Active</option>
-                    </select>
-                </div>
-
-
-
-
-
 
                 <div class="modal-footer">
                     <button type="reset" class="btn btn-secondary" data-dismiss="modal">Batal</button>
@@ -1397,6 +1366,67 @@
                     $('#datapackage').html(data);
                 }
             });
+        }
+    });
+
+    $(function() {
+        var oldCoverage = <?= json_encode(set_value('coverage')) ?>;
+        var oldPackage = <?= json_encode(set_value('paket')) ?>;
+        var oldOdc = <?= json_encode(set_value('id_odc')) ?>;
+        var oldOdp = <?= json_encode(set_value('id_odp')) ?>;
+        var oldPort = <?= json_encode(set_value('no_port_odp')) ?>;
+
+        if (oldCoverage) {
+            var packageUrl = $("#getallpackage").is(":checked") ?
+                "<?= site_url('coverage/getallpackage') ?>" :
+                "<?= site_url('coverage/getpackagebycoverage') ?>";
+            $.post(packageUrl + "/" + Math.random(), {
+                coverage: oldCoverage
+            }, function(data) {
+                $("#datapackage").html(data).val(oldPackage);
+            });
+
+            $.post("<?= site_url('odc/getodc') ?>" + "/" + Math.random(), {
+                coverage_id: oldCoverage
+            }, function(data) {
+                $("#id_odc").html(data).val(oldOdc);
+                if (!oldOdc) {
+                    return;
+                }
+
+                $.post("<?= site_url('odp/getodp') ?>" + "/" + Math.random(), {
+                    id_odc: oldOdc
+                }, function(odpData) {
+                    $("#id_odp").html(odpData).val(oldOdp);
+                    if (!oldOdp) {
+                        return;
+                    }
+
+                    $.post("<?= site_url('odp/getportodp') ?>" + "/" + Math.random(), {
+                        id_odp: oldOdp
+                    }, function(portData) {
+                        $("#port_odp").html(portData).val(oldPort);
+                    });
+                });
+            });
+        }
+
+        if ($("#createbill").is(":checked")) {
+            $("#formcreatebill").show();
+        }
+        if ($("#proratabill").is(":checked")) {
+            $("#dateprorata, #remarkproratabill").show();
+        } else if ($("#fullbill").is(":checked")) {
+            $("#remarkfullbill").show();
+        }
+        if ($("#autoisolir").val() == "1") {
+            $("#selectactionisolir, #maxdueisolir").show();
+            if ($("#changeprofile").is(":checked")) {
+                $("#remarkchangeprofile").show();
+            }
+            if ($("#disableuser").is(":checked")) {
+                $("#remarkdisableuser").show();
+            }
         }
     });
 </script>
