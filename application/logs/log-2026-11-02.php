@@ -419,3 +419,22 @@ ERROR - 2026-11-02 09:36:58 --> Severity: Warning --> Undefined array key "lengt
 ERROR - 2026-11-02 09:37:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
 ERROR - 2026-11-02 09:38:01 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
 ERROR - 2026-11-02 09:38:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Undefined variable $coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 10
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 10
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Undefined variable $coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 32
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 32
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Undefined variable $coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 37
+ERROR - 2026-11-02 11:57:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\add-coverage.php 37
+ERROR - 2026-11-02 11:57:07 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:07 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Coverage_m.php 187
+ERROR - 2026-11-02 11:57:15 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Coverage_m.php 187
+ERROR - 2026-11-02 11:57:21 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:21 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Coverage_m.php 187
+ERROR - 2026-11-02 11:57:23 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:23 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\coverage\coverage.php 139
+ERROR - 2026-11-02 11:57:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Coverage_m.php 187
+ERROR - 2026-11-02 11:58:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
