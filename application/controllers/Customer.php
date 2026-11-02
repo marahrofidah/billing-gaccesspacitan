@@ -283,6 +283,9 @@ class customer extends CI_Controller
             redirect('member/dashboard');
         }
         $post = $this->input->post(null, TRUE);
+        if (!isset($post['email'])) {
+            $post['email'] = '';
+        }
 
 
         // die;
@@ -290,7 +293,9 @@ class customer extends CI_Controller
         $this->form_validation->set_rules('no_ktp', 'ID Card', 'trim');
         $this->form_validation->set_rules('no_services', 'No Service', 'required|trim|is_unique[customer.no_services]');
         $this->form_validation->set_rules('no_wa', 'No Whatsapp', 'trim');
-        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[customer.email]');
+        if ($post['email'] !== '') {
+            $this->form_validation->set_rules('email', 'Email', 'trim|valid_email|is_unique[customer.email]');
+        }
 
         $this->form_validation->set_message('required', '%s Tidak boleh kosong, Silahkan isi');
         $this->form_validation->set_message('is_unique', '%s Sudah dipakai, Silahkan ganti');
@@ -316,15 +321,10 @@ class customer extends CI_Controller
             $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
             $this->template->load('backend', 'backend/customer/add_customer', $data);
         } else {
-            $post = $this->input->post(null, TRUE);
             $email = $post['email'];
-            $password = $post['password'];
-            // var_dump($post['parent']);
-            // die;
-            $email = $post['email'];
-            $password = $post['password1'];
-            $cekCs = $this->db->get_where('user', ['email' => $this->input->post('email')])->num_rows();
-            if ($cekCs > 0) {
+            $password = isset($post['password1']) ? $post['password1'] : '';
+            $cekCs = $email !== '' ? $this->db->get_where('user', ['email' => $email])->num_rows() : 0;
+            if ($cekCs > 0 || $email === '' || $password === '') {
                 $this->customer_m->add($post);
                 if ($this->db->affected_rows() > 0) {
                     $item = $this->db->get_where('package_item', ['p_item_id' => $post['paket']])->row_array();
@@ -525,7 +525,7 @@ class customer extends CI_Controller
                             # code...
                         }
                     }
-                    if ($post['sendwapelanggan'] == '1') {
+                    if (!empty($post['sendwapelanggan']) && $email !== '' && $password !== '') {
                         // WA GATEWAY
                         // get database wa gateway
                         $whatsapp = $this->db->get('whatsapp')->row_array();
@@ -779,7 +779,7 @@ class customer extends CI_Controller
                         'remark' => 'Tambah Pelanggan' . ' ' . $post['name'] . ' ' . $post['no_services'] . ' ' . 'dari' . ' ' . $this->agent->platform() . ' ' . $this->input->ip_address() . ' ' . $agent,
                     ];
                     $this->db->insert('logs', $params);
-                    if ($post['sendwapelanggan'] == '1') {
+                    if (!empty($post['sendwapelanggan']) && $email !== '' && $password !== '') {
 
                         // WA GATEWAY
                         // get database wa gateway
