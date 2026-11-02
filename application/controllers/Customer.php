@@ -824,7 +824,6 @@ class customer extends CI_Controller
 
         $this->form_validation->set_rules('no_wa', 'No Whatsapp', 'required|trim');
         $this->form_validation->set_rules('no_services', 'No Services', 'required|trim|callback_no_services_check');
-        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|callback_email_check');
         $this->form_validation->set_message('required', '%s Tidak boleh kosong, Silahkan isi');
         $this->form_validation->set_message('is_unique', '%s Sudah dipakai, Silahkan ganti');
         if ($this->form_validation->run() == false) {
@@ -855,6 +854,13 @@ class customer extends CI_Controller
             }
         } else {
             $post = $this->input->post(null, TRUE);
+            $customer = $this->db->get_where('customer', ['customer_id' => $post['customer_id']])->row();
+            if (!$customer) {
+                $this->session->set_flashdata('error-sweet', 'Data pelanggan tidak ditemukan');
+                redirect('customer');
+                return;
+            }
+            $post['email'] = $customer->email;
             $this->customer_m->edit($post);
             if ($this->db->affected_rows() > 0) {
                 $logamessage = 'Edit Pelanggan' . ' ' . $post['name'] . ' ' . $post['no_services'] . ' ';
@@ -863,7 +869,7 @@ class customer extends CI_Controller
             }
             if ($post['no_services'] != 0) {
                 $this->db->set('no_services', $post['no_services']);
-                $this->db->where('email', $post['email']);
+                $this->db->where('email', $customer->email);
                 $this->db->update('services');
             }
             echo "<script>window.location='" . site_url('customer') . "'; </script>";
@@ -1359,14 +1365,6 @@ class customer extends CI_Controller
             $row[] = $result->name;
             $row[] = $result->no_services;
 
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-
-
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
             } else {
@@ -1443,14 +1441,6 @@ class customer extends CI_Controller
             $row[] = $result->name;
             $row[] = $result->no_services;
 
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-
-
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
             } else {
@@ -1519,13 +1509,6 @@ class customer extends CI_Controller
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
             $row[] = $result->name;
             $row[] = $result->no_services;
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             $company = $this->db->get('company')->row_array();
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
@@ -1599,13 +1582,6 @@ class customer extends CI_Controller
             $row[] = $result->name;
             $row[] = $result->no_services;
 
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
             } else {
@@ -1675,13 +1651,6 @@ class customer extends CI_Controller
             $row[] = $result->name;
             $row[] = $result->no_services;
 
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
             } else {
@@ -1756,13 +1725,7 @@ class customer extends CI_Controller
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
             $row[] = $result->name;
             $row[] = $result->no_services;
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
 
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
             $company = $this->db->get('company')->row_array();
             if ($result->phonecode == 0) {
                 $phone = $company['phonecode'] . '' . $result->no_wa;
@@ -2145,14 +2108,6 @@ class customer extends CI_Controller
             $row[] = $result->name;
 
             $row[] = $result->no_services;
-
-            $user = $this->db->get_where('user', ['email' => $result->email])->row_array();
-            if ($user > 0) {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-check" aria-hidden="true" style="color:green"></i>';
-            } else {
-                $row[] = $result->email . '<br>Akses Login <i class="fa fa-times" aria-hidden="true" style="color:red"></i>';
-            }
-
 
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status . '<br>Jatuh Tempo : ' . $result->due_date;

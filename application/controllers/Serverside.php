@@ -40,7 +40,6 @@ class Serverside extends CI_Controller
             $row[] = $result->name . '<br> <a href="' . site_url('services/detail/') . $result->no_services . '" title="Rincian Paket" class="btn btn-success"  style="font-size: smaller">Rincian Paket</a> ';
             $row[] = $result->no_services;
             $row[] = $result->no_wa;
-            $row[] = $result->email;
             $row[] = $result->address;
             $row[] = indo_currency($subtotal);
             $row[] = '

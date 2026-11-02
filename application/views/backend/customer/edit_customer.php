@@ -129,11 +129,6 @@
                     <input type="text" autocomplete="off" id="datepicker" name="register_date" class="form-control" value="<?= $customer->register_date ?>">
                     <?= form_error('register_date', '<small class="text-danger pl-3 ">', '</small>') ?>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" class="form-control" value="<?= $customer->email ?>">
-                    <?= form_error('email', '<small class="text-danger pl-3 ">', '</small>') ?>
-                </div>
                 <label for="no_ktp">ID Card</label>
                 <div class="form-group row">
                     <div class="col-sm-4 mb-3 mb-sm-0">
@@ -152,7 +147,7 @@
                 </div>
                 <div class="form-group">
                     <label for="no_wa">No Telp.</label>
-                    <input type="number" id="no_wa" name="no_wa" class="form-control" value="<?= $customer->no_wa ?>">
+                    <input type="tel" inputmode="numeric" id="no_wa" name="no_wa" class="form-control" value="<?= $customer->no_wa ?>">
                     <?= form_error('no_wa', '<small class="text-danger pl-3 ">', '</small>') ?>
                 </div>
 

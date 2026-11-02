@@ -95,7 +95,6 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                         <th style="text-align: center; width:20px">No</th>
                         <th>No Layanan</th>
                         <th>Nama</th>
-                        <th>Email</th>
                         <th>Status</th>
                         <th>Ppn</th>
                         <th>No Telp.</th>
@@ -128,7 +127,6 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                             <td><a href="#" data-toggle="modal" data-target="#detail<?= $data->no_services ?>" title="Detail">
                                     <div class="badge badge-primary"><?= $data->name ?></div>
                                 </a></td>
-                            <td><?= $data->email ?></td>
                             <td><?= $data->c_status ?></td>
                             <td style="text-align:center"><?= $data->ppn == 1 ? 'Yes' : 'No' ?></td>
                             <td><?= indo_tlp($data->no_wa) ?></td>

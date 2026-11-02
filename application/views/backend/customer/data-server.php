@@ -6,7 +6,6 @@
             <th>Name</th>
             <th>No Services</th>
             <th>No WA</th>
-            <th>Email</th>
             <th>Address</th>
             <th>Tagihan / Bln</th>
             <th>Action</th>

@@ -159,7 +159,7 @@
                 </div>
                 <div class="form-group">
                     <label for="no_wa">No Telp.</label> awali angka 0
-                    <input type="number" id="no_wa" name="no_wa" class="form-control" value="<?= set_value('no_wa') ?>">
+                    <input type="tel" inputmode="numeric" id="no_wa" name="no_wa" class="form-control" value="<?= set_value('no_wa') ?>">
                     <?= form_error('no_wa', '<small class="text-danger pl-3 ">', '</small>') ?>
                 </div>
 
