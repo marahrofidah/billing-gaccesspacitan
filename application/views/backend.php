@@ -1,3 +1,9 @@
+<?php
+/** @var string $title */
+/** @var array<string, mixed> $company */
+/** @var array<string, mixed> $user */
+/** @var string $contents */
+?>
 <!DOCTYPE html>
 <html lang="en">
 

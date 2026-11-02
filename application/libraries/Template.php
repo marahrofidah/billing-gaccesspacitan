@@ -13,6 +13,7 @@ class Template
     {
         $this->CI = &get_instance();
         $this->set('contents', $this->CI->load->view($view, $view_data, TRUE));
-        $this->CI->load->view($template, $this->template_data, $return);
+        $template_data = array_merge($view_data, $this->template_data);
+        $this->CI->load->view($template, $template_data, $return);
     }
 }
