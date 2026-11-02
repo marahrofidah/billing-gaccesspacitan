@@ -1,12 +1,22 @@
 <?php
-$listisolir = $this->customer_m->getisolirpasca()->result();
+if (isset($this->load) && method_exists($this->load, 'model')) {
+    if (!isset($this->customer_m) || !is_object($this->customer_m)) {
+        $this->load->model('customer_m');
+    }
+}
+
+$listisolir = (isset($this->customer_m) && is_object($this->customer_m))
+    ? $this->customer_m->getisolirpasca()->result()
+    : array();
 
 if (count($listisolir) > 0) {
     $listrouter = $this->db->get('router')->result();
     foreach ($listrouter as $router) {
         $totalcustomer = $this->db->get_where('customer', ['router' => $router->id])->num_rows();
         if ($totalcustomer > 0) {
-            $billpasca = $this->customer_m->getisolirpasca($router->id)->result();
+            $billpasca = (isset($this->customer_m) && is_object($this->customer_m))
+                ? $this->customer_m->getisolirpasca($router->id)->result()
+                : array();
             $user = $router->username;
             $ip = $router->ip_address;
             $pass = $router->password;

@@ -105,7 +105,7 @@
                                     <form action="" method="post" class="user">
                                         <div class="row mb-2">
                                             <div class="col">
-                                                <?php $mode = $_COOKIE["loginMode"]; ?>
+                                                <?php $mode = isset($_COOKIE['loginMode']) ? $_COOKIE['loginMode'] : ''; ?>
                                                 <input type="radio" <?php if ($mode == 'email' or $mode == '') {
                                                                         echo 'checked';
                                                                     } ?> name="mode" value="email" required> Email

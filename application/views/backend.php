@@ -1,3 +1,9 @@
+<?php
+/** @var string $title */
+/** @var array<string, mixed> $company */
+/** @var array<string, mixed> $user */
+/** @var string $contents */
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1338,10 +1344,15 @@
 <!-- CEK ULANG ISOLIR -->
 
 <?php
-if (!isset($this->customer_m)) {
-    $this->load->model('customer_m');
+if (isset($this->load) && method_exists($this->load, 'model')) {
+    if (!isset($this->customer_m) || !is_object($this->customer_m)) {
+        $this->load->model('customer_m');
+    }
 }
-$cekcs = $this->customer_m->getisolirpasca()->num_rows();
+
+$cekcs = (isset($this->customer_m) && is_object($this->customer_m))
+    ? $this->customer_m->getisolirpasca()->num_rows()
+    : 0;
 ?>
 
 <?php if ($cekcs > 0) { ?>

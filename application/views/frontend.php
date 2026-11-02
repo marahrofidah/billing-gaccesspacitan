@@ -355,10 +355,15 @@
 </script>
 <!--End of Tawk.to Script-->
 <?php
-if (!isset($this->customer_m)) {
-    $this->load->model('customer_m');
+if (isset($this->load) && method_exists($this->load, 'model')) {
+    if (!isset($this->customer_m) || !is_object($this->customer_m)) {
+        $this->load->model('customer_m');
+    }
 }
-$cekcs = $this->customer_m->getisolirpasca()->num_rows();
+
+$cekcs = (isset($this->customer_m) && is_object($this->customer_m))
+    ? $this->customer_m->getisolirpasca()->num_rows()
+    : 0;
 ?>
 <?php if ($cekcs > 0) { ?>
     <?php $rt = $this->db->get_where('router', ['id' => 1])->row_array() ?>
