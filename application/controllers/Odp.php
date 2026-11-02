@@ -175,60 +175,34 @@ class Odp extends CI_Controller
 
             $post = $this->input->post(null, TRUE);
 
-            $config['upload_path']          = './assets/images/document';
+            if (isset($_FILES['picture']) && $_FILES['picture']['error'] !== UPLOAD_ERR_NO_FILE) {
+                $config['upload_path'] = './assets/images/document';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
+                $config['max_size'] = 20480;
+                $config['file_name'] = 'odp-' . date('ymd') . '-' . substr(md5(rand()), 0, 10);
+                $this->load->library('upload', $config);
 
-            $config['allowed_types']        = 'gif|jpg|png|jpeg';
+                if (!$this->upload->do_upload('picture')) {
+                    $this->session->set_flashdata('error', $this->upload->display_errors());
+                    redirect('odp/edit/' . $id, 'location', 303);
+                    return;
+                }
 
-            $config['max_size']             = 20480; // 2 Mb
-
-            $config['file_name']             = 'odp-' . date('ymd') . '-' . substr(md5(rand()), 0, 10);
-
-            $this->load->library('upload', $config);
-
-            if (@FILES['picture']['name'] != null) {
-
-                if ($this->upload->do_upload('picture')) {
-
-                    $odp = $this->db->get_where('m_odp', ['id_odp' => $id])->row();
-
-                    if ($odp->document != null) {
-
-                        $target_file = './assets/images/document/' . $odp->document;
-
+                $post['picture'] = $this->upload->data('file_name');
+                $odp = $this->db->get_where('m_odp', ['id_odp' => $id])->row();
+                if ($odp && $odp->document) {
+                    $target_file = './assets/images/document/' . $odp->document;
+                    if (is_file($target_file)) {
                         unlink($target_file);
                     }
-
-                    $post['picture'] =  $this->upload->data('file_name');
-
-                    $this->odp_m->edit($post);
-
-                    if ($this->db->affected_rows() > 0) {
-
-                        $this->session->set_flashdata('success', 'Data berhasil diperbaharui');
-                    }
-
-                    echo "<script>window.location='" . site_url('odp') . "'; </script>";
-                } else {
-
-                    $post['picture'] =  null;
-
-                    $this->odp_m->edit($post);
-
-                    if ($this->db->affected_rows() > 0) {
-
-                        $this->session->set_flashdata('success', ' Data odp berhasil diperbaharui');
-                    }
-
-                    echo "<script>window.location='" . base_url('odp') . "'; </script>";
                 }
-            } else {
-
-                $error = $this->upload->display_errors();
-
-                $this->session->set_flashdata('error', $error);
-
-                echo "<script>window.location='" . base_url('odp') . "'; </script>";
             }
+
+            $this->odp_m->edit($post);
+            if ($this->db->affected_rows() > 0) {
+                $this->session->set_flashdata('success', 'Data ODP berhasil diperbaharui');
+            }
+            redirect('odp', 'location', 303);
         }
     }
 

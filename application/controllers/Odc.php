@@ -171,60 +171,34 @@ class Odc extends CI_Controller
 
             $post = $this->input->post(null, TRUE);
 
-            $config['upload_path']          = './assets/images/document';
+            if (isset($_FILES['picture']) && $_FILES['picture']['error'] !== UPLOAD_ERR_NO_FILE) {
+                $config['upload_path'] = './assets/images/document';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
+                $config['max_size'] = 20480;
+                $config['file_name'] = 'odc-' . date('ymd') . '-' . substr(md5(rand()), 0, 10);
+                $this->load->library('upload', $config);
 
-            $config['allowed_types']        = 'gif|jpg|png|jpeg';
+                if (!$this->upload->do_upload('picture')) {
+                    $this->session->set_flashdata('error', $this->upload->display_errors());
+                    redirect('odc/edit/' . $id, 'location', 303);
+                    return;
+                }
 
-            $config['max_size']             = 20480; // 2 Mb
-
-            $config['file_name']             = 'odc-' . date('ymd') . '-' . substr(md5(rand()), 0, 10);
-
-            $this->load->library('upload', $config);
-
-            if (@FILES['picture']['name'] != null) {
-
-                if ($this->upload->do_upload('picture')) {
-
-                    $odc = $this->db->get_where('m_odc', ['id_odc' => $id])->row();
-
-                    if ($odc->document != null) {
-
-                        $target_file = './assets/images/document/' . $odc->document;
-
+                $post['picture'] = $this->upload->data('file_name');
+                $odc = $this->db->get_where('m_odc', ['id_odc' => $id])->row();
+                if ($odc && $odc->document) {
+                    $target_file = './assets/images/document/' . $odc->document;
+                    if (is_file($target_file)) {
                         unlink($target_file);
                     }
-
-                    $post['picture'] =  $this->upload->data('file_name');
-
-                    $this->odc_m->edit($post);
-
-                    if ($this->db->affected_rows() > 0) {
-
-                        $this->session->set_flashdata('success', 'Data berhasil diperbaharui');
-                    }
-
-                    echo "<script>window.location='" . site_url('odc') . "'; </script>";
-                } else {
-
-                    $post['picture'] =  null;
-
-                    $this->odc_m->edit($post);
-
-                    if ($this->db->affected_rows() > 0) {
-
-                        $this->session->set_flashdata('success', ' Data ODC berhasil diperbaharui');
-                    }
-
-                    echo "<script>window.location='" . base_url('odc') . "'; </script>";
                 }
-            } else {
-
-                $error = $this->upload->display_errors();
-
-                $this->session->set_flashdata('error', $error);
-
-                echo "<script>window.location='" . base_url('odc') . "'; </script>";
             }
+
+            $this->odc_m->edit($post);
+            if ($this->db->affected_rows() > 0) {
+                $this->session->set_flashdata('success', 'Data ODC berhasil diperbaharui');
+            }
+            redirect('odc', 'location', 303);
         }
     }
 

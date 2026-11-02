@@ -1023,3 +1023,409 @@ ERROR - 2026-10-31 15:40:12 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-10-31 15:40:12 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-10-31 15:40:12 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-10-31 15:40:12 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-10-31 22:15:22 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 237
+ERROR - 2026-10-31 22:15:22 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 419
+ERROR - 2026-10-31 22:15:22 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 599
+ERROR - 2026-10-31 22:15:22 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:22 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 39
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 39
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $show_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $add_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $edit_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined variable $del_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:25 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:25 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:42 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:42 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $package C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 39
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 39
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 703
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_customer C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_item C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_bill C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_income C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_coverage C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_slide C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_product C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_router C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $show_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $add_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $edit_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined variable $del_user C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\role.php 924
+ERROR - 2026-10-31 22:15:45 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:45 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:46 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 237
+ERROR - 2026-10-31 22:15:46 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 419
+ERROR - 2026-10-31 22:15:46 --> Severity: Warning --> Undefined array key "setting_terms_conditions" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\role\menu.php 599
+ERROR - 2026-10-31 22:15:46 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:46 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:15:53 --> Severity: Warning --> Undefined variable $data C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:15:53 --> Severity: Warning --> Attempt to read property "user_mikrotik" on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 219
+ERROR - 2026-10-31 22:15:54 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 252
+ERROR - 2026-10-31 22:16:03 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:16:03 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:16:08 --> Severity: Warning --> Undefined property: CI_Loader::$customer_m C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:16:08 --> Severity: error --> Exception: Call to a member function getisolirpasca() on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend.php 1340
+ERROR - 2026-10-31 22:16:09 --> Severity: Warning --> Undefined variable $data C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:16:09 --> Severity: Warning --> Attempt to read property "user_mikrotik" on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 219
+ERROR - 2026-10-31 22:16:10 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 252
+ERROR - 2026-10-31 22:16:12 --> Severity: Warning --> Undefined variable $row C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 47
+ERROR - 2026-10-31 22:16:12 --> Severity: Warning --> Undefined variable $no_services C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\usage.php 77
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 30
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 34
+ERROR - 2026-10-31 22:16:15 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\data-usage.php 39
+ERROR - 2026-10-31 22:16:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Mikrotik_m.php 71
+ERROR - 2026-10-31 22:16:27 --> Severity: Warning --> Undefined variable $row C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 47
+ERROR - 2026-10-31 22:16:27 --> Severity: Warning --> Undefined variable $no_services C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\usage.php 77
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined variable $data C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Attempt to read property "user_mikrotik" on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 70
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 74
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 75
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 77
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 78
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 80
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 81
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 83
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 84
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 86
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 87
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 89
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 91
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 92
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 94
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 95
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 98
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 99
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 103
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 104
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 108
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 109
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 124
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 0 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 151
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 219
+ERROR - 2026-10-31 22:16:32 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\setting\data.php 252
