@@ -11,24 +11,15 @@
 <?php $role = $this->db->get_where('role_management', ['role_id' => $this->session->userdata('role_id')])->row_array() ?>
 <?php $menu = $this->db->get_where('role_menu', ['role_id' => $this->session->userdata('role_id')])->row_array() ?>
 <?php if ($this->session->userdata('role_id') == 1  or $menu['customer_menu'] == 1) { ?>
-
-
     <div class="col-lg-3 col-sm-12 col-md-6">
         <div class="form-group">
             <select class="form-control select2" name="no_services" id="no_services" onchange="getdetailcustomer()" required>
                 <option value="">-Pilih Nama Pelanggan-</option>
-
-                <?php
-
-                foreach ($customer as $r => $data) { ?>
-
+                <?php foreach ($customer as $r => $data) { ?>
                     <option value="<?= $data->no_services ?>"><?= $data->no_services ?> - <?= $data->name ?> - <?= $data->c_status; ?></option>
-
                 <?php } ?>
             </select>
-
         </div>
-
     </div>
 <?php } ?>
 
@@ -38,6 +29,8 @@
 
         <?php
         $customerall = $this->db->get('customer')->result();
+        $dataa = [];
+        $dataaa = [];
         foreach ($customerall as $result) {
             $row = array();
             $row = $result->email;
@@ -298,24 +291,6 @@
                     <tbody>
 
                     </tbody>
-                    <tfoot>
-                        <tr style="text-align: center">
-                            <th style="text-align: center; width:20px">No</th>
-                            <th></th>
-                            <th>Nama</th>
-                            <th>No Layanan</th>
-                            <th>Email</th>
-                            <th>No Telp.</th>
-                            <th>Status</th>
-                            <th>Ppn</th>
-                            <?php if ($this->session->userdata('role_id') == 1) { ?>
-                                <th style="width: 100px">Tagihan / Bulan</th>
-                            <?php } ?>
-                            <th>Alamat</th>
-                            <th style="text-align: center">Aksi</th>
-
-                        </tr>
-                    </tfoot>
                 </table>
             </form>
         </div>

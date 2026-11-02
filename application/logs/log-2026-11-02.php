@@ -357,3 +357,65 @@ ERROR - 2026-11-02 02:42:28 --> Severity: error --> Exception: Access denied for
 ERROR - 2026-11-02 02:42:42 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2026-11-02 02:43:10 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2026-11-02 02:43:20 --> Severity: error --> Exception: No connection could be made because the target machine actively refused it C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:43:45 --> Severity: error --> Exception: No connection could be made because the target machine actively refused it C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:43:56 --> Severity: error --> Exception: No connection could be made because the target machine actively refused it C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:44:12 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:46:14 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:46:34 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:46:56 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:47:02 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:47:29 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:48:15 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:08:44 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:24:04 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:24:48 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:28:46 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:28:47 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:29:04 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:29:05 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:29:12 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:29:23 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 03:31:11 --> 404 Page Not Found: -/index
+ERROR - 2026-11-02 03:31:16 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-02 09:31:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:31:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:31:49 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:32:00 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:00 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:14 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:14 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:15 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:15 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:17 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:32:17 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 47
+ERROR - 2026-11-02 09:33:44 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 45
+ERROR - 2026-11-02 09:33:44 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 45
+ERROR - 2026-11-02 09:33:53 --> Severity: Warning --> Undefined variable $dataa C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 45
+ERROR - 2026-11-02 09:33:53 --> Severity: error --> Exception: array_count_values(): Argument #1 ($array) must be of type array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\data.php 45
+ERROR - 2026-11-02 09:36:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:36:43 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1936
+ERROR - 2026-11-02 09:36:43 --> Severity: error --> Exception: Unknown column 'Array' in 'where clause' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 12
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-02 09:36:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-02 09:36:46 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-02 09:36:48 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1936
+ERROR - 2026-11-02 09:36:48 --> Severity: error --> Exception: Unknown column 'Array' in 'where clause' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-02 09:36:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-02 09:36:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 12
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-02 09:36:54 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-02 09:36:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-02 09:36:58 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:37:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:38:01 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-02 09:38:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
