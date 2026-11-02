@@ -936,6 +936,12 @@ class customer extends CI_Controller
         $post = $this->input->post(null, TRUE);
         $customer_id = $this->input->post('customer_id');
         $customer = $this->db->get_where('customer', ['customer_id' => $customer_id])->row_array();
+
+        if (empty($customer)) {
+            $this->session->set_flashdata('error', 'Pelanggan tidak ditemukan');
+            redirect('customer');
+        }
+
         $no_services = $customer['no_services'];
         $customername = $customer['name'];
 
@@ -947,20 +953,6 @@ class customer extends CI_Controller
         $this->customer_m->delete($customer_id);
         if ($this->db->affected_rows() > 0) {
             $company = $this->db->get('company')->row_array();
-        
-            // PHP program to delete all
-            // file from a folder
-            // Folder path to be flushed
-            $folder_path = "./assets/";
-            // List of name of files inside
-            // specified folder
-            $files = glob($folder_path . '/*');
-            // Deleting all the files in the list
-            foreach ($files as $file) {
-                if (is_file($file))
-                    // Delete the given file
-                    unlink($file);
-            }
             $cekInvoice = $this->bill_m->getCekInvoice($no_services)->result();
             foreach ($cekInvoice as $data) {
                 // HAPUS SEMUA PEMASUKAN
@@ -975,7 +967,9 @@ class customer extends CI_Controller
                 $this->bill_m->deleteDetailInvoice($data->invoice);
                 // HAPUS QRCODE
                 $target_file = './assets/images/qrcode/' . $data->invoice . '.png';
-                unlink($target_file);
+                if (is_file($target_file)) {
+                    unlink($target_file);
+                }
                 // HAPUS SEMUA INVOICE TAGIHAN
                 // $this->db->where_in('invoice', $data->invoice);
                 $this->db->where_in('no_services', $no_services);
@@ -993,8 +987,12 @@ class customer extends CI_Controller
 
             // HAPUS PROFILE
             $user = $this->db->get_where('user', ['email' => $customer['email']])->row_array();
-            $target_file = './assets/images/profile/' . $user->image;
-            unlink($target_file);
+            if (!empty($user['image'])) {
+                $target_file = './assets/images/profile/' . $user['image'];
+                if (is_file($target_file)) {
+                    unlink($target_file);
+                }
+            }
             // HAPUS EMAIL PENGGUNA
             if ($customer['email'] != $this->session->userdata('email')) {
                 $this->db->where('email', $customer['email']);
@@ -1002,8 +1000,12 @@ class customer extends CI_Controller
             }
 
             // HAPUS KTP
-            $target_file = './assets/images/ktp/' . $customer['ktp'];
-            unlink($target_file);
+            if (!empty($customer['ktp'])) {
+                $target_file = './assets/images/ktp/' . $customer['ktp'];
+                if (is_file($target_file)) {
+                    unlink($target_file);
+                }
+            }
 
 
 
@@ -1025,7 +1027,7 @@ class customer extends CI_Controller
             $this->session->set_flashdata('success', 'Data berhasil dihapus');
         }
 
-    redirect($_SERVER['HTTP_REFERER']);
+        redirect('customer');
     }
     public function setcodeunique()
     {

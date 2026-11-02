@@ -354,7 +354,12 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
-<?php $cekcs = $this->customer_m->getisolirpasca()->num_rows(); ?>
+<?php
+if (!isset($this->customer_m)) {
+    $this->load->model('customer_m');
+}
+$cekcs = $this->customer_m->getisolirpasca()->num_rows();
+?>
 <?php if ($cekcs > 0) { ?>
     <?php $rt = $this->db->get_where('router', ['id' => 1])->row_array() ?>
     <?php if ($rt['is_active'] == 1) { ?>
