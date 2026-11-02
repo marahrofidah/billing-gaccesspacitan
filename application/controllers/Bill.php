@@ -581,16 +581,41 @@ class Bill extends CI_Controller
     public function addBillDraf()
     {
         $post = $this->input->post(null, TRUE);
+        $redirect = $this->agent->referrer();
+        if (empty($redirect)) {
+            $redirect = site_url('bill/draf');
+        }
+
         $company = $this->db->get('company')->row_array();
         if (!$company || !isset($company['ppn']) || !is_numeric($company['ppn'])) {
             $this->session->set_flashdata('error-sweet', 'Lengkapi dan simpan pengaturan perusahaan serta PPN sebelum membuat tagihan.');
             redirect('setting');
             return;
         }
-        $no_services = $this->input->post('no_services');
+        $no_services = isset($post['no_services']) ? trim($post['no_services']) : '';
+        $month = isset($post['month']) ? $post['month'] : '';
+        $year = isset($post['year']) ? $post['year'] : '';
+        if (!ctype_digit($no_services) || !checkdate((int) $month, 1, (int) $year)) {
+            $this->session->set_flashdata('error-sweet', 'Data layanan atau periode tagihan tidak valid.');
+            redirect($redirect);
+            return;
+        }
+
+        $cekCustomer = $this->db->get_where('customer', ['no_services' => $no_services])->row_array();
+        if (!$cekCustomer) {
+            $this->session->set_flashdata('error-sweet', 'Data pelanggan tidak ditemukan.');
+            redirect($redirect);
+            return;
+        }
+
+        $cekperiode = $this->bill_m->cekPeriode($no_services, $month, $year);
+        if ($cekperiode->num_rows() > 0) {
+            $this->session->set_flashdata('error-sweet', 'Gagal, Tagihan untuk periode tersebut sudah tersedia, mohon dicek kembali !');
+            redirect($redirect);
+            return;
+        }
+
         $getInv = $this->bill_m->getRecentInv()->row();
-        $month = $post['month'];
-        $year = $post['year'];
         $tgl = date('ymd');
         $no = 001;
         if (!$getInv || $getInv->invoice == 0) {
@@ -598,9 +623,6 @@ class Bill extends CI_Controller
         } else {
             $invoice = $getInv->invoice + 1;
         }
-        $cekperiode = $this->bill_m->cekPeriode($no_services, $month, $year);
-
-        $cekCustomer = $this->db->get_where('customer', ['no_services' => $no_services])->row_array();
         if ($cekCustomer['ppn'] > 0) {
             $ppn = $company['ppn'];
         } else {
@@ -636,33 +658,44 @@ class Bill extends CI_Controller
 
         $post['code_unique'] = substr(intval(rand()), 0, 3);
 
-        $query = "SELECT *
-        FROM `services` where `no_services` = $no_services";
-        $bill = $this->db->query($query)->result();
+        $bill = $this->db->get_where('services', ['no_services' => $no_services])->result();
         $amountt = 0;
         foreach ($bill as $bill) {
             $amountt += (int) $bill->total;
         }
         $amount = $amountt + $amountt * ($ppn / 100);
-        $this->load->library('ciqrcode'); //pemanggilan library QR CODE
-        $config['cacheable']    = true; //boolean, the default is true
-        $config['cachedir']     = './assets/'; //string, the default is application/cache/
-        $config['errorlog']     = './assets/'; //string, the default is application/logs/
-        $config['imagedir']     = './assets/images/qrcode/'; //direktori penyimpanan qr code
-        $config['quality']      = true; //boolean, the default is true
-        $config['size']         = '1024'; //interger, the default is 1024
-        $config['black']        = array(224, 255, 255); // array, default is array(255,255,255)
-        $config['white']        = array(70, 130, 180); // array, default is array(0,0,0)
-        $this->ciqrcode->initialize($config);
-        $image_name = $invoice . '.png'; //buat name dari qr code
-        $params['data'] = $invoice . '-' . $no_services; //data yang akan di jadikan QR CODE
-        $params['level'] = 'H'; //H=High
-        $params['size'] = 10;
-        $params['savename'] = FCPATH . $config['imagedir'] . $image_name; //simpan image QR CODE ke folder assets/images/
-        $this->ciqrcode->generate($params); // fungsi untuk generate QR CODE
+        $qrError = null;
+        if (function_exists('imagecreate')) {
+            try {
+                $this->load->library('ciqrcode');
+                $config['cacheable'] = true;
+                $config['cachedir'] = './assets/';
+                $config['errorlog'] = './assets/';
+                $config['imagedir'] = './assets/images/qrcode/';
+                $config['quality'] = true;
+                $config['size'] = '1024';
+                $config['black'] = [224, 255, 255];
+                $config['white'] = [70, 130, 180];
+                $this->ciqrcode->initialize($config);
+                $params = [
+                    'data' => $invoice . '-' . $no_services,
+                    'level' => 'H',
+                    'size' => 10,
+                    'savename' => FCPATH . $config['imagedir'] . $invoice . '.png',
+                ];
+                $this->ciqrcode->generate($params);
+            } catch (Throwable $e) {
+                log_message('error', 'Gagal membuat QR tagihan ' . $invoice . ': ' . $e->getMessage());
+                $qrError = 'Tagihan tersimpan, tetapi QR code gagal dibuat.';
+            }
+        } else {
+            log_message('error', 'Ekstensi GD tidak aktif; QR tagihan ' . $invoice . ' tidak dibuat.');
+            $qrError = 'Tagihan tersimpan, tetapi QR code tidak dibuat karena ekstensi GD belum aktif.';
+        }
         if ($cekperiode->num_rows() > 0) {
             $this->session->set_flashdata('error-sweet', 'Gagal, Tagihan untuk periode tersebut sudah tersedia, mohon dicek kembali !');
-            redirect($_SERVER['HTTP_REFERER']);
+            redirect($redirect);
+            return;
         } else {
             $this->bill_m->addBill($post, $invoice, $ppn, $amount);
             if ($this->db->affected_rows() > 0) {
@@ -726,8 +759,13 @@ class Bill extends CI_Controller
                 ];
                 $this->db->insert('logs', $params);
                 $this->session->set_flashdata('success-sweet', 'Tagihan berhasil dibuat');
+            } else {
+                $this->session->set_flashdata('error-sweet', 'Tagihan gagal disimpan. Silakan coba lagi.');
             }
-            redirect($_SERVER['HTTP_REFERER']);
+            if ($qrError !== null) {
+                $this->session->set_flashdata('error-sweet', $qrError);
+            }
+            redirect($redirect);
         }
     }
     public function generateBill()

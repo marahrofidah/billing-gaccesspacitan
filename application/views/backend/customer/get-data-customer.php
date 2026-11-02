@@ -27,7 +27,6 @@
                             <th style="text-align: center; width:20px"> <input type='checkbox' class='check-item' id="selectAll"></th>
                             <th>Nama</th>
                             <th>No Layanan</th>
-                            <th>Email</th>
                             <th>No Telp.</th>
                             <th>Status</th>
                             <th>Ppn</th>
