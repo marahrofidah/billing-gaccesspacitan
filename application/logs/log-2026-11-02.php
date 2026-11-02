@@ -351,3 +351,9 @@ ERROR - 2026-11-02 08:40:21 --> Severity: Warning --> Trying to access array off
 ERROR - 2026-11-02 08:40:21 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
 ERROR - 2026-11-02 08:40:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
 ERROR - 2026-11-02 08:40:21 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-02 02:42:01 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:42:24 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:42:28 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:42:42 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:43:10 --> Severity: error --> Exception: Access denied for user 'readynet'@'localhost' (using password: YES) C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2026-11-02 02:43:20 --> Severity: error --> Exception: No connection could be made because the target machine actively refused it C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 203
