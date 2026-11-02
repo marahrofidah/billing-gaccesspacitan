@@ -29,20 +29,7 @@
 
         <?php
         $customerall = $this->db->get('customer')->result();
-        $dataa = [];
         $dataaa = [];
-        foreach ($customerall as $result) {
-            $row = array();
-            $row = $result->email;
-            $dataa[] = $row;
-        }
-        // echo json_encode($dataa);
-        $count_values = array_count_values($dataa);
-        function findDuplicates($count)
-        {
-            return $count > 1;
-        }
-        $duplicates = array_filter(array_count_values($dataa), "findDuplicates");
         foreach ($customerall as $result) {
             $row = array();
             $row = $result->no_services;
@@ -57,31 +44,14 @@
         // $noservices = json_encode($duplicatess);
 
         ?>
-        <?php if (count($duplicates)  > 0) { ?>
-            <div class="alert alert-danger alert-dismissible">
-                <i class="icon fa fa-ban"></i> Ada Email Yang Sama
-                <pre>
-<?php
-            $a = $duplicates;
-            print_r($a);
-?>
- 
-</pre>
-            </div>
-        <?php } ?>
-
-
-
         <?php if ($this->session->userdata('role_id') == 1 or $role['add_customer'] == 1) { ?>
 
             <a href="<?= site_url('customer/add') ?>" class="d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah</a>
 
         <?php } ?>
-        <?php if (count($duplicates) == 0) { ?>
-            <?php if (count($duplicatess) == 0) { ?>
-                <?php if ($company['import'] == 1) { ?>
-                    <a href="<?= site_url('customer/import') ?>" class="d-sm-inline-block btn btn-sm btn-secondary shadow-sm"><i class="fas fa-file-excel fa-sm text-white-50"></i> Import</a>
-                <?php } ?>
+        <?php if (count($duplicatess) == 0) { ?>
+            <?php if ($company['import'] == 1) { ?>
+                <a href="<?= site_url('customer/import') ?>" class="d-sm-inline-block btn btn-sm btn-secondary shadow-sm"><i class="fas fa-file-excel fa-sm text-white-50"></i> Import</a>
             <?php } ?>
         <?php } ?>
     </div>
