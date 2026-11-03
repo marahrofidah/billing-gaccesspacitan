@@ -881,3 +881,616 @@ ERROR - 2026-11-03 04:57:37 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-11-03 04:57:37 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-11-03 04:57:37 --> 404 Page Not Found: Assets/backend
 ERROR - 2026-11-03 04:57:37 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:39 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:39 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:39 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:39 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 05:36:39 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 11:36:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:37:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\edit_customer.php 42
+ERROR - 2026-11-03 11:37:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\edit_customer.php 64
+ERROR - 2026-11-03 11:37:10 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:37:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:37:27 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:37:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:37:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:42:58 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:43:20 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:43:38 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:43:43 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:43:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:43:54 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:43:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:43:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 11:45:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 11:45:11 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3489
+ERROR - 2026-11-03 11:45:16 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 11:45:16 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 11:45:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:45:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 11:47:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 11:47:04 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3489
+ERROR - 2026-11-03 11:47:08 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 11:47:08 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 11:47:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:48:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 11:48:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:03:05 --> Severity: Warning --> Undefined variable $getreminderduedatetelegram C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:03:05 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:03:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:03:36 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:03:36 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:03:36 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:03:50 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 12:03:50 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 12:03:51 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:03:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:03:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 06:03:58 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 12:04:16 --> Severity: Warning --> Undefined variable $getreminderduedatetelegram C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:04:16 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:04:25 --> Severity: Warning --> Undefined variable $getreminderduedatetelegram C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:04:25 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Mikrotik.php 1158
+ERROR - 2026-11-03 12:07:27 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:07:30 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:07:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:07:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:30:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:31:53 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:31:55 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:31:55 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:31:55 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:32:03 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 12:32:03 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 12:32:03 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:32:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:32:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:32:17 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:32:17 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:32:17 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:32:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:32:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:32:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:33:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:33:08 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3489
+ERROR - 2026-11-03 12:33:10 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 12:33:10 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 12:34:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:34:11 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:34:11 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:34:11 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:34:19 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:38:00 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-03 12:38:00 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-03 12:38:00 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-03 12:38:00 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-03 12:38:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-03 12:38:04 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:38:06 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:38:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:38:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:39:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:39:36 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:39:36 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:39:36 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:10 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:59:13 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:20 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:59:23 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 12:59:23 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 12:59:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 12:59:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 12:59:28 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3489
+ERROR - 2026-11-03 12:59:30 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 12:59:30 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 12:59:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 12:59:50 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:50 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:50 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 12:59:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:00:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:00:10 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:00:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:00:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:00:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:00:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:00:55 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:00:55 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:00:55 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:16 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 13:02:16 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 13:02:18 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:18 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:18 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:02:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:02:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:02:35 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:35 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:35 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:42 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:02:55 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:03:23 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 13:03:23 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 13:03:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:03:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:03:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3489
+ERROR - 2026-11-03 13:03:41 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 13:03:41 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:03:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:03:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:03:51 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:03:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:03:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:08:10 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:10 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:08:29 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:08:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:08:37 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:08:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:08:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:08:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:08:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:08:38 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:13:22 --> 404 Page Not Found: -/index
+ERROR - 2026-11-03 07:13:28 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:13:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:13:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:13:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:13:56 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:13:56 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:13:56 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:13:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:14:04 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:14:08 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:14:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 07:14:15 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:14:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:14:24 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 13:14:24 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 07:14:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:14:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 13:14:27 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:14:27 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:14:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:14:30 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:14:30 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:14:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:14:40 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:14:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:14:44 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:14:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:14:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:14:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:14:49 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:14:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:15:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:15:06 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:15:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:15:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:15:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:11 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:40 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:43 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:15:44 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:15:47 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:15:47 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:15:47 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:15:47 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:15:52 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:16:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:16:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:16:03 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:16:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:16:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:16:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:17:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 07:17:22 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:17:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-03 13:17:54 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1897
+ERROR - 2026-11-03 13:17:54 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-03 13:18:02 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:18:02 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:18:02 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:18:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:18:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 07:18:28 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:18:28 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:18:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:18:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:18:42 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:18:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:19:11 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:19:12 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:19:16 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:19:16 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:19:16 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:19:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:19:19 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 13:19:19 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 13:19:20 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:19:20 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:19:20 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:19:20 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:19:34 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:19:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 818
+ERROR - 2026-11-03 07:19:36 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:19:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:19:45 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:19:45 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:19:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:01 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:20:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:20:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:20:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:20:20 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:20:20 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:20:20 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:20:20 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:21:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:24:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:24:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:24:09 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:24:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:24:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:24:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:24:13 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:24:17 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:24:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 07:24:23 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:24:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:24:30 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:24:30 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:24:58 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:25:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:25:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:25:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:25:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1897
+ERROR - 2026-11-03 13:25:18 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-03 13:25:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:40 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:43:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:43:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:43:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:43:55 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:43:55 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:43:55 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:05 --> 404 Page Not Found: Assets/backend
+ERROR - 2026-11-03 07:44:08 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:44:22 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:44:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:44:27 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:44:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:44:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:44:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:44:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 13:44:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 13:44:33 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:44:33 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:44:33 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:44:33 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:44:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:44:50 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:44:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:44:51 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 13:44:51 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 07:44:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:44:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 07:44:54 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:44:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:44:55 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 07:45:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:45:26 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:45:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:45:33 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:45:33 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:45:33 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:45:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 13:45:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 13:45:53 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:45:53 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:45:53 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:45:59 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:45:59 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 13:46:02 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:46:02 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 13:46:02 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 07:46:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:46:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 13:46:14 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 07:46:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:46:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 13:46:29 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:46:29 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:46:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 13:46:33 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 13:46:33 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 07:46:33 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 07:46:53 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:02:26 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:02:27 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 08:02:33 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:02:33 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:02:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:02:40 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:02:40 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:02:40 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:03:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:15 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 14:03:15 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 08:03:15 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 08:03:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:03:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:03:22 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:03:22 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:03:23 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:34 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 14:03:34 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 14:03:34 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:03:34 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:03:34 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:03:42 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:42 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 14:03:46 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:03:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:03:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 08:03:46 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:03:55 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:03:55 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 08:03:59 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:04:12 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 14:04:12 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 08:04:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:04:12 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 14:04:14 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:04:14 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:04:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:04:17 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:04:17 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:04:17 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:04:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:05:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:01 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-03 14:05:01 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-03 08:05:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:05:01 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-03 08:05:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:05:03 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 232
+ERROR - 2026-11-03 08:05:07 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:12 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:05:12 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:05:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:05:29 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:05:47 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:05:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:05:53 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-03 14:05:53 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-03 08:05:53 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:06:18 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:06:18 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 08:06:21 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:06:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-03 14:06:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-03 08:06:36 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 08:06:46 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:06:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 08:06:49 --> 404 Page Not Found: Assets/images

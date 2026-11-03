@@ -147,7 +147,7 @@ class Router extends CI_Controller
         $port = $router['port'];
         $API = new Mikweb();
         $API->connect($ip, $user, $pass, $port);
-        $getcounttraffic = $API->comm("/system/schedule/print", array('?name' => 'COUNT-INTERFACE',));
+        $getcounttraffic = $API->comm("/system/scheduler/print", array('?name' => 'COUNT-INTERFACE',));
         $idcounttraffic = $getcounttraffic['0']['.id'];
         // var_dump($getcounttraffic);
         // die;

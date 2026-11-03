@@ -871,7 +871,7 @@ class Mikrotik extends CI_Controller
 
             try {
                 if ($API->connect($data['router']['ip_address'], $data['router']['username'], $data['router']['password'], $data['router']['port'])) {
-                    $result = $API->comm('/system/schedule/print');
+                    $result = $API->comm('/system/scheduler/print');
                     foreach (is_array($result) ? $result : [] as $schedule) {
                         if (isset($schedule['name']) && array_key_exists($schedule['name'], $data['schedules'])) {
                             $data['schedules'][$schedule['name']] = $schedule;
@@ -905,27 +905,27 @@ class Mikrotik extends CI_Controller
             redirect('mikrotik/setting');
             return;
         }
-        $getisolir = $API->comm("/system/schedule/print", array('?name' => 'ISOLIR-MY-WIFI',));
+        $getisolir = $API->comm("/system/scheduler/print", array('?name' => 'ISOLIR-MY-WIFI',));
         $idisolir = $getisolir[0]['.id'] ?? null;
 
-        $getcountpppoe = $API->comm("/system/schedule/print", array('?name' => 'COUNT-PPPOE',));
+        $getcountpppoe = $API->comm("/system/scheduler/print", array('?name' => 'COUNT-PPPOE',));
         $idcountpppoe = $getcountpppoe[0]['.id'] ?? null;
 
 
-        $getcreatebill = $API->comm("/system/schedule/print", array('?name' => 'GENERATE-BILL',));
+        $getcreatebill = $API->comm("/system/scheduler/print", array('?name' => 'GENERATE-BILL',));
         $idcreatebill = $getcreatebill[0]['.id'] ?? null;
 
-        $getreminderduedate = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL',));
+        $getreminderduedate = $API->comm("/system/scheduler/print", array('?name' => 'REMINDER-BILL',));
         $idreminderduedate = $getreminderduedate[0]['.id'] ?? null;
-        $getreminderduedatebefore = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BEFORE-DUE',));
+        $getreminderduedatebefore = $API->comm("/system/scheduler/print", array('?name' => 'REMINDER-BEFORE-DUE',));
         $idreminderduedatebefore = $getreminderduedatebefore[0]['.id'] ?? null;
 
 
-        $getreminderduedatetelegram = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL-TELEGRAM',));
+        $getreminderduedatetelegram = $API->comm("/system/scheduler/print", array('?name' => 'REMINDER-BILL-TELEGRAM',));
         $idreminderduedatetelegram = $getreminderduedatetelegram[0]['.id'] ?? null;
 
 
-        $getbackupdb = $API->comm("/system/schedule/print", array('?name' => 'BACKUP-DB',));
+        $getbackupdb = $API->comm("/system/scheduler/print", array('?name' => 'BACKUP-DB',));
         $idbackupdb = $getbackupdb[0]['.id'] ?? null;
 
 
