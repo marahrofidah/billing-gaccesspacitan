@@ -1494,3 +1494,9 @@ ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Undefined variable $userho
 ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
 ERROR - 2026-11-03 14:06:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
 ERROR - 2026-11-03 08:06:49 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-03 14:08:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-03 14:08:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-03 14:08:05 --> Severity: Warning --> Undefined variable $userhotspot C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:08:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 14:08:05 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\mikrotik\customer\client.php 366
+ERROR - 2026-11-03 08:08:05 --> 404 Page Not Found: Assets/images
