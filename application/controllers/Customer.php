@@ -1343,6 +1343,30 @@ class customer extends CI_Controller
     }
 
     // SERVER SIDE
+    private function getCustomerMonthlyAmount($customer)
+    {
+        $this->db->from('services');
+        if (!empty($customer->no_services) && (int) $customer->no_services !== 0) {
+            $this->db->where('no_services', $customer->no_services);
+        } elseif (!empty($customer->email)) {
+            $this->db->where('email', $customer->email);
+        } else {
+            return (int) ($customer->cust_amount ?? 0);
+        }
+        $services = $this->db->get()->result();
+
+        $subtotal = 0;
+        foreach ($services as $service) {
+            $subtotal += (int) $service->total;
+        }
+
+        if ($subtotal == 0 && !empty($customer->cust_amount)) {
+            return (int) $customer->cust_amount;
+        }
+
+        return $subtotal;
+    }
+
     public function getAllCustomer()
     {
         $result = $this->customer_m->getDataTable();
@@ -1350,15 +1374,7 @@ class customer extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            if ($result->no_services != 0) {
-                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            } else {
-                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
-            }
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal += $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1426,15 +1442,7 @@ class customer extends CI_Controller
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
         foreach ($result as $result) {
-            if ($result->no_services != 0) {
-                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            } else {
-                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
-            }
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal += $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1499,11 +1507,7 @@ class customer extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1571,11 +1575,7 @@ class customer extends CI_Controller
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1640,11 +1640,7 @@ class customer extends CI_Controller
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1711,15 +1707,7 @@ class customer extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            if ($result->no_services != 0) {
-                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            } else {
-                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
-            }
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -2097,11 +2085,7 @@ class customer extends CI_Controller
         $rt = $this->db->get('router')->row_array();
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $querying = $this->db->query($query)->result();
-            $subtotal = 0;
-            foreach ($querying as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';

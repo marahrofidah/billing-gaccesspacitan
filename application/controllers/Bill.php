@@ -40,6 +40,28 @@ class Bill extends CI_Controller
             return $row;
         }
     }
+
+    private function getCustomerMonthlyAmount($customer)
+    {
+        $noServices = is_array($customer) ? ($customer['no_services'] ?? 0) : ($customer->no_services ?? 0);
+        $email = is_array($customer) ? ($customer['email'] ?? '') : ($customer->email ?? '');
+        $custAmount = is_array($customer) ? ($customer['cust_amount'] ?? 0) : ($customer->cust_amount ?? 0);
+
+        if (!empty($noServices) && (int) $noServices !== 0) {
+            $services = $this->db->get_where('services', ['no_services' => $noServices])->result();
+        } elseif (!empty($email)) {
+            $services = $this->db->get_where('services', ['email' => $email])->result();
+        } else {
+            return (int) $custAmount;
+        }
+
+        $subtotal = 0;
+        foreach ($services as $service) {
+            $subtotal += (int) $service->total;
+        }
+
+        return $subtotal > 0 ? $subtotal : (int) $custAmount;
+    }
     public function update($before, $after)
     {
         if ($this->session->userdata('email') == 'ginginabdulgoni@gmail.com') {
@@ -498,14 +520,13 @@ class Bill extends CI_Controller
         } else {
             $invoice = $this->input->post('invoice');
         }
-        $query = "SELECT *
-        FROM `services` where `no_services` = $no_services";
-        $bill = $this->db->query($query)->result();
-        $amountt = 0;
-        foreach ($bill as $bill) {
-            $amountt += (int) $bill->total;
-        }
+        $amountt = $this->getCustomerMonthlyAmount($cekCustomer);
         $amount = $amountt + ($amountt * ($ppn / 100));
+        if ($amount <= 0) {
+            $this->session->set_flashdata('error-sweet', 'Tagihan pelanggan bernilai 0. Lengkapi nomor layanan, email, atau nominal cust_amount.');
+            redirect($_SERVER['HTTP_REFERER']);
+            return;
+        }
 
         if ($cekperiode->num_rows() > 0) {
             $this->session->set_flashdata('error-sweet', 'Gagal, Tagihan untuk periode tersebut sudah tersedia, mohon dicek kembali !');
@@ -658,12 +679,13 @@ class Bill extends CI_Controller
 
         $post['code_unique'] = substr(intval(rand()), 0, 3);
 
-        $bill = $this->db->get_where('services', ['no_services' => $no_services])->result();
-        $amountt = 0;
-        foreach ($bill as $bill) {
-            $amountt += (int) $bill->total;
-        }
+        $amountt = $this->getCustomerMonthlyAmount($cekCustomer);
         $amount = $amountt + $amountt * ($ppn / 100);
+        if ($amount <= 0) {
+            $this->session->set_flashdata('error-sweet', 'Tagihan pelanggan bernilai 0. Lengkapi nomor layanan, email, atau nominal cust_amount.');
+            redirect($redirect);
+            return;
+        }
         $qrError = null;
         if (function_exists('imagecreate')) {
             try {
@@ -829,14 +851,11 @@ class Bill extends CI_Controller
                 } else {
                     $enddate = $duedate;
                 }
-                $query = "SELECT *
-                FROM `services` where `no_services` = $row->no_services";
-                $bill = $this->db->query($query)->result();
-                $amountt = 0;
-                foreach ($bill as $bill) {
-                    $amountt += (int) $bill->total;
-                }
+                $amountt = $this->getCustomerMonthlyAmount($row);
                 $amount = $amountt + $amountt * ($ppn / 100);
+                if ($amount <= 0) {
+                    continue;
+                }
                 array_push(
                     $dataNS,
                     array(
@@ -987,14 +1006,11 @@ class Bill extends CI_Controller
                 } else {
                     $enddate = $duedate;
                 }
-                $query = "SELECT *
-                FROM `services` where `no_services` = $row->no_services";
-                $bill = $this->db->query($query)->result();
-                $amountt = 0;
-                foreach ($bill as $bill) {
-                    $amountt += (int) $bill->total;
-                }
+                $amountt = $this->getCustomerMonthlyAmount($row);
                 $amount = $amountt + $amountt * ($ppn / 100);
+                if ($amount <= 0) {
+                    continue;
+                }
                 array_push(
                     $dataNS,
                     array(
@@ -2425,15 +2441,10 @@ class Bill extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $quercs = $this->db->query($query)->result();
-
             $querybill = "SELECT *FROM `invoice`    WHERE `invoice`.`no_services` = $result->no_services and `invoice`.`month` = $month and `invoice`.`year` = $year";
             $querying = $this->db->query($querybill)->row_array();
 
-            $subtotal = 0;
-            foreach ($quercs as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
 
@@ -2496,15 +2507,10 @@ class Bill extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result->result() as $result) {
-            $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
-            $quercs = $this->db->query($query)->result();
-
             $querybill = "SELECT *FROM `invoice`    WHERE `invoice`.`no_services` = $result->no_services and `invoice`.`month` = $month and `invoice`.`year` = $year";
             $querying = $this->db->query($querybill)->row_array();
 
-            $subtotal = 0;
-            foreach ($quercs as  $dataa)
-                $subtotal +=  $dataa->total;
+            $subtotal = $this->getCustomerMonthlyAmount($result);
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' name=' . 'noservices[]' . ' value=' . $result->no_services . '>';
