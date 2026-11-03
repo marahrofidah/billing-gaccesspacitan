@@ -857,6 +857,38 @@ class Mikrotik extends CI_Controller
         $data['company'] = $this->db->get('company')->row_array();
         $data['router'] = $this->db->get_where('router', ['id' => 1])->row_array();
         $data['other'] = $this->db->get('other')->row_array();
+        $scheduleNames = ['ISOLIR-MY-WIFI', 'COUNT-PPPOE', 'GENERATE-BILL', 'REMINDER-BILL', 'REMINDER-BILL-TELEGRAM', 'BACKUP-DB'];
+        $data['schedules'] = array_fill_keys($scheduleNames, []);
+        $data['schedule_available'] = false;
+
+        if (!$data['router']) {
+            $data['schedule_error'] = 'Data MikroTik belum tersedia. Halaman schedule dibuka tanpa status dari router.';
+        } else {
+            $API = new Mikweb();
+            $API->attempts = 1;
+            $API->timeout = 1;
+            $API->delay = 0;
+
+            try {
+                if ($API->connect($data['router']['ip_address'], $data['router']['username'], $data['router']['password'], $data['router']['port'])) {
+                    $result = $API->comm('/system/schedule/print');
+                    foreach (is_array($result) ? $result : [] as $schedule) {
+                        if (isset($schedule['name']) && array_key_exists($schedule['name'], $data['schedules'])) {
+                            $data['schedules'][$schedule['name']] = $schedule;
+                        }
+                    }
+                    $data['schedule_available'] = true;
+                } else {
+                    $data['schedule_error'] = 'Tidak dapat terhubung ke MikroTik. Halaman dibuka tanpa status schedule; pengaturan tidak dapat disimpan.';
+                }
+            } catch (RuntimeException | TypeError $exception) {
+                log_message('error', 'Unable to load MikroTik schedules: ' . $exception->getMessage());
+                $data['schedule_error'] = 'Koneksi MikroTik terputus saat membaca schedule. Halaman dibuka tanpa status schedule.';
+            } finally {
+                $API->disconnect();
+            }
+        }
+
         $this->template->load('backend', 'backend/mikrotik/setting/data', $data);
     }
     public function editsetting()
@@ -868,41 +900,33 @@ class Mikrotik extends CI_Controller
         $pass = $router['password'];
         $port = $router['port'];
         $API = new Mikweb();
-        $API->connect($ip, $user, $pass, $port);
+        if (!$API->connect($ip, $user, $pass, $port)) {
+            $this->session->set_flashdata('error-sweet', 'Tidak dapat terhubung ke MikroTik. Pengaturan belum disimpan.');
+            redirect('mikrotik/setting');
+            return;
+        }
         $getisolir = $API->comm("/system/schedule/print", array('?name' => 'ISOLIR-MY-WIFI',));
-        $idisolir = $getisolir['0']['.id'];
-
-        $getresetpppoe = $API->comm("/system/schedule/print", array('?name' => 'RESET-PPPOE',));
-        $idresetpppoe = $getresetpppoe['0']['.id'];
-
-        $getresethotspot = $API->comm("/system/schedule/print", array('?name' => 'RESET-HOTSPOT',));
-        $idresethotspot = $getresethotspot['0']['.id'];
-
-        $getresetstatic = $API->comm("/system/schedule/print", array('?name' => 'RESET-STATIC',));
-        $idresetstatic = $getresetstatic['0']['.id'];
+        $idisolir = $getisolir[0]['.id'] ?? null;
 
         $getcountpppoe = $API->comm("/system/schedule/print", array('?name' => 'COUNT-PPPOE',));
-        $idcountpppoe = $getcountpppoe['0']['.id'];
-
-        $getcountstandalone = $API->comm("/system/schedule/print", array('?name' => 'COUNT-STANDALONE',));
-        $idcountstandalone = $getcountstandalone['0']['.id'];
+        $idcountpppoe = $getcountpppoe[0]['.id'] ?? null;
 
 
         $getcreatebill = $API->comm("/system/schedule/print", array('?name' => 'GENERATE-BILL',));
-        $idcreatebill = $getcreatebill['0']['.id'];
+        $idcreatebill = $getcreatebill[0]['.id'] ?? null;
 
         $getreminderduedate = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL',));
-        $idreminderduedate = $getreminderduedate['0']['.id'];
+        $idreminderduedate = $getreminderduedate[0]['.id'] ?? null;
         $getreminderduedatebefore = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BEFORE-DUE',));
-        $idreminderduedatebefore = $getreminderduedatebefore['0']['.id'];
+        $idreminderduedatebefore = $getreminderduedatebefore[0]['.id'] ?? null;
 
 
         $getreminderduedatetelegram = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL-TELEGRAM',));
-        $idreminderduedatetelegram = $getreminderduedatetelegram['0']['.id'];
+        $idreminderduedatetelegram = $getreminderduedatetelegram[0]['.id'] ?? null;
 
 
         $getbackupdb = $API->comm("/system/schedule/print", array('?name' => 'BACKUP-DB',));
-        $idbackupdb = $getbackupdb['0']['.id'];
+        $idbackupdb = $getbackupdb[0]['.id'] ?? null;
 
 
 
@@ -924,12 +948,12 @@ class Mikrotik extends CI_Controller
 
 
 
-        if (strlen($post['jamreminderduedatetelegram'] == 1)) {
+        if (strlen($post['jamreminderduedatetelegram']) == 1) {
             $jamreminderduedatetelegram = '0' . $post['jamreminderduedatetelegram'];
         } else {
             $jamreminderduedatetelegram = $post['jamreminderduedatetelegram'];
         }
-        if (strlen($post['menitreminderduedatetelegram'] == 1)) {
+        if (strlen($post['menitreminderduedatetelegram']) == 1) {
             $menitreminderduedatetelegram = '0' . $post['menitreminderduedatetelegram'];
         } else {
             $menitreminderduedatetelegram = $post['menitreminderduedatetelegram'];
@@ -938,12 +962,12 @@ class Mikrotik extends CI_Controller
 
 
 
-        if (strlen($post['jambackupdb'] == 1)) {
+        if (strlen($post['jambackupdb']) == 1) {
             $jambackupdb = '0' . $post['jambackupdb'];
         } else {
             $jambackupdb = $post['jambackupdb'];
         }
-        if (strlen($post['menitresetstandalone'] == 1)) {
+        if (strlen($post['menitbackupdb']) == 1) {
             $menitbackupdb = '0' . $post['menitbackupdb'];
         } else {
             $menitbackupdb = $post['menitbackupdb'];
@@ -957,6 +981,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'ISOLIR-MY-WIFI',
 
                     'interval' => $post['intervalisolir'] . 'm',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/isolir/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -972,7 +997,6 @@ class Mikrotik extends CI_Controller
                     'comment' => 'ISOLIR-MY-WIFI',
 
                     'interval' => $post['intervalisolir'] . 'm',
-                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/isolir/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -995,7 +1019,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'COUNT-PPPOE',
 
                     'interval' => $post['intervalcountpppoe'] . 'm',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/countpppoe/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1011,7 +1035,6 @@ class Mikrotik extends CI_Controller
                     'comment' => 'COUNT-PPPOE',
 
                     'interval' => $post['intervalcountpppoe'] . 'm',
-                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/countpppoe/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1036,7 +1059,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'GENERATE-BILL',
 
                     'interval' => '1d',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/createbill/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1052,7 +1075,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'GENERATE-BILL',
 
                     'interval' => '1d',
-                    'disabled' => 'yes',
+                    // 'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/createbill/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1074,7 +1097,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BILL',
 
                     'interval' => '1d',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminderduedate/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1083,7 +1106,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BEFORE-DUE',
 
                     'interval' => '1d',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminder/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1102,7 +1125,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BILL',
 
                     'interval' => '1d',
-                    'disabled' => 'yes',
+                    // 'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminderduedate/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1111,7 +1134,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BEFORE-DUE',
 
                     'interval' => '1d',
-                    'disabled' => 'yes',
+                    // 'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminder/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1138,7 +1161,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BILL-TELEGRAM',
                     'start-time' => '' . $jamreminderduedatetelegram . ':' . $menitreminderduedatetelegram . ':00',
                     'interval' => '1d',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminderduedatetelegram/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1154,7 +1177,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'REMINDER-BILL-TELEGRAM',
                     'start-time' => '' . $jamreminderduedatetelegram . ':' . $menitreminderduedatetelegram . ':00',
                     'interval' => '1d',
-                    'disabled' => 'yes',
+                    // 'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/reminderduedatetelegram/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1176,7 +1199,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'BACKUP-DB',
                     'start-time' => '' . $jambackupdb . ':' . $menitbackupdb . ':00',
                     'interval' => '1d',
-                    // 'disabled' => 'yes',
+                    'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/backupdb/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1192,7 +1215,7 @@ class Mikrotik extends CI_Controller
                     'comment' => 'BACKUP-DB',
                     'start-time' => '' . $jambackupdb . ':' . $menitbackupdb . ':00',
                     'interval' => '1d',
-                    'disabled' => 'yes',
+                    // 'disabled' => 'yes',
                     'on-event' => '/tool fetch url="' . base_url('front/backupdb/' . $post['key_apps']) . '" keep-result=no',
 
                 ));
@@ -1222,10 +1245,10 @@ class Mikrotik extends CI_Controller
             $this->db->set('sch_due', 0);
             $this->db->set('sch_before_due', 0);
         }
-        $this->db->set('date_reset', $post['date_reset']);
         $this->db->set('key_apps', $post['key_apps']);
         $this->db->set('date_create', $post['date_create']);
         $this->db->update('other');
+        $this->session->set_flashdata('success-sweet', 'Pengaturan schedule berhasil disimpan.');
         redirect('mikrotik/setting');
     }
 
