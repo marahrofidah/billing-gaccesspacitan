@@ -42,6 +42,7 @@ class Member extends CI_Controller
             $data['CountServices'] = $this->services_m->getServices($no_services->no_services)->num_rows();
             $data['no_services'] = $no_services->no_services;
             $bill = $this->bill_m->getBillThisMonth($no_services->no_services)->row();
+            $dashboardView = 'member/dashboard';
             if ($bill != '') {
 
 
@@ -55,10 +56,11 @@ class Member extends CI_Controller
             } else {
                 $data['totalBill'] = 0;
                 $data['CountBill'] = 0;
+                $dashboardView = 'member/dashboard_empty';
             }
             $data['company'] = $this->db->get('company')->row_array();
 
-            $this->template->load('member', 'member/dashboard', $data);
+            $this->template->load('member', $dashboardView, $data);
         } else {
             $this->session->set_flashdata('error', 'Email anda belum memiliki layanan yang aktif, silahkan hubungi kami untuk informasi lebih lanjut atau bantuan');
             redirect('member/about');

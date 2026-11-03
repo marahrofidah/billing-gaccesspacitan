@@ -50,6 +50,9 @@
     }
 </style>
 <?php $this->view('messages') ?>
+<?php if (!empty($schedule_error)) : ?>
+    <div class="alert alert-warning" role="alert"><?= html_escape($schedule_error); ?></div>
+<?php endif; ?>
 
 <div class="row">
     <div class="col-lg-6">
@@ -63,52 +66,25 @@
                         <div class="card-body">
 
                             <?php
-                            $ip = $router['ip_address'];
-                            $user = $router['username'];
-                            $pass = $router['password'];
-                            $port = $router['port'];
-                            $userclient = $data->user_mikrotik;
-                            $API = new Mikweb();
-                            $API->connect($ip, $user, $pass, $port);
-                            $getisolir = $API->comm("/system/schedule/print", array('?name' => 'ISOLIR-MY-WIFI',));
-                            $timeisolir = explode(":", $getisolir['0']['start-time']);
-                            $isolirstatus = $getisolir['0']['disabled'];
-                            $getresetpppoe = $API->comm("/system/schedule/print", array('?name' => 'RESET-PPPOE',));
-                            $timeresetpppoe = explode(":", $getresetpppoe['0']['start-time']);
-                            $resetpppoe = $getresetpppoe['0']['disabled'];
-                            $getresethotspot = $API->comm("/system/schedule/print", array('?name' => 'RESET-HOTSPOT',));
-                            $resethotspot = $getresethotspot['0']['disabled'];
-                            $timeresethotspot = explode(":", $getresethotspot['0']['start-time']);
-                            $getresetstatic = $API->comm("/system/schedule/print", array('?name' => 'RESET-STATIC',));
-                            $resetstatic = $getresetstatic['0']['disabled'];
-                            $timeresetstatic = explode(":", $getresetstatic['0']['start-time']);
-                            $getcountpppoe = $API->comm("/system/schedule/print", array('?name' => 'COUNT-PPPOE',));
-                            $countpppoe = $getcountpppoe['0']['disabled'];
-                            $timecountpppoe = explode(":", $getcountpppoe['0']['start-time']);
-                            $getcountstandalone = $API->comm("/system/schedule/print", array('?name' => 'COUNT-STANDALONE',));
-                            $countstandalone = $getcountstandalone['0']['disabled'];
-                            $getcekconnection = $API->comm("/system/schedule/print", array('?name' => 'CEK-CONNECTION',));
-                            $cekconnection = $getcekconnection['0']['disabled'];
-                            $timecountstandalone = explode(":", $getcountstandalone['0']['start-time']);
-                            $getcreatebill = $API->comm("/system/schedule/print", array('?name' => 'GENERATE-BILL',));
-                            $createbill = $getcreatebill['0']['disabled'];
-                            $timecreatebill = explode(":", $getcreatebill['0']['start-time']);
-                            $getreminderduedate = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL',));
+                            $isolirSchedule = $schedules['ISOLIR-MY-WIFI'];
+                            $isolirstatus = $isolirSchedule['disabled'] ?? 'true';
+                            $countpppoeSchedule = $schedules['COUNT-PPPOE'];
+                            $countpppoe = $countpppoeSchedule['disabled'] ?? 'true';
+                            $createbillSchedule = $schedules['GENERATE-BILL'];
+                            $createbill = $createbillSchedule['disabled'] ?? 'true';
+                            $reminderduedateSchedule = $schedules['REMINDER-BILL'];
+                            $reminderduedate = $reminderduedateSchedule['disabled'] ?? 'true';
+                            $timereminderduedate = explode(":", $reminderduedateSchedule['start-time'] ?? '09:00:00');
 
-                            $reminderduedate = $getreminderduedate['0']['disabled'];
-                            $timereminderduedate = explode(":", $getreminderduedate['0']['start-time']);
+                            $reminderTelegramSchedule = $schedules['REMINDER-BILL-TELEGRAM'];
 
-                            $getreminderduedatetelegram = $API->comm("/system/schedule/print", array('?name' => 'REMINDER-BILL-TELEGRAM',));
+                            $reminderduedatetelegram = $reminderTelegramSchedule['disabled'] ?? 'true';
+                            $timereminderduedatetelegram = explode(":", $reminderTelegramSchedule['start-time'] ?? '09:00:00');
 
-                            $reminderduedatetelegram = $getreminderduedatetelegram['0']['disabled'];
-                            $timereminderduedatetelegram = explode(":", $getreminderduedatetelegram['0']['start-time']);
+                            $backupSchedule = $schedules['BACKUP-DB'];
+                            $backupdb = $backupSchedule['disabled'] ?? 'true';
+                            $timebackupdb = explode(":", $backupSchedule['start-time'] ?? '07:00:00');
 
-                            // var_dump($resetpppoe);
-                            $getbackupdb = $API->comm("/system/schedule/print", array('?name' => 'BACKUP-DB',));
-                            $backupdb = $getbackupdb['0']['disabled'];
-                            $timebackupdb = explode(":", $getbackupdb['0']['start-time']);
-
-                            // var_dump($resetpppoe);
                             ?>
                             <div class="row">
                                 <div class="col">Auto Isolir / Disable </div>
@@ -121,7 +97,7 @@
                                     <label class="col-sm-12 col-form-label">Interval </label>
                                 </div>
                                 <div class="col-sm-2 mt-2">
-                                    <?php $interval = $getisolir[0]['interval']; ?>
+                                    <?php $interval = $isolirSchedule['interval'] ?? '10m'; ?>
                                     <input type="number" name="intervalisolir" min="10" max="59" class="form-control" autocomplete="off" value="<?= preg_replace("/[^0-9\.]/", "", $interval); ?>">
                                 </div>
                                 <div class="col-sm-3 mt-2">
@@ -148,7 +124,7 @@
                                     <label class="col-sm-12 col-form-label">Interval </label>
                                 </div>
                                 <div class="col-sm-2 mt-2">
-                                    <?php $interval = $getcountpppoe[0]['interval']; ?>
+                                    <?php $interval = $countpppoeSchedule['interval'] ?? '15m'; ?>
                                     <input type="number" name="intervalcountpppoe" min="15" max="59" class="form-control" autocomplete="off" value="<?= preg_replace("/[^0-9\.]/", "", $interval); ?>">
                                 </div>
                                 <div class="col-sm-3 mt-2">
@@ -270,7 +246,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="reset" class="btn btn-secondary" data-dismiss="modal">Reset</button>
-                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        <button type="submit" class="btn btn-primary" <?= empty($schedule_available) ? 'disabled' : ''; ?>>Simpan</button>
                     </div>
                 </div>
             </div>
