@@ -5779,3 +5779,19 @@ ERROR - 2026-11-04 14:21:25 --> Severity: Warning --> Undefined array key "lengt
 =======
 >>>>>>> 4aad22d6db5b70f28a8d79fd82ec243f9783b902
 >>>>>>> ca048b2198caafb7cac2d447fc9659d58afd7dee
+ERROR - 2026-11-04 08:27:28 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 14:27:28 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:33 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:38 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:41 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:42 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:42 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638
+ERROR - 2026-11-04 14:27:43 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 638

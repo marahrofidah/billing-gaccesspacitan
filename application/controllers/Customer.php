@@ -9,6 +9,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class customer extends CI_Controller
 {
+    private $customerIpRouterModeCache = [];
 
     function __construct()
     {
@@ -1400,6 +1401,8 @@ class customer extends CI_Controller
             }
         }
 
+        $this->load->driver('cache', ['adapter' => 'file', 'backup' => 'dummy']);
+
         foreach ($customersByRouter as $routerId => $routerCustomers) {
             $router = $this->db->get_where('router', ['id' => $routerId])->row_array();
             if (empty($router)) {
@@ -1409,73 +1412,105 @@ class customer extends CI_Controller
                 continue;
             }
 
-            $API = new Mikweb();
-            $API->attempts = 1;
-            $API->timeout = 1;
-            $API->delay = 0;
-            if (!$API->connect($router['ip_address'], $router['username'], $router['password'], $router['port'])) {
-                foreach ($routerCustomers as $customer) {
-                    $ipByCustomer[$customer->customer_id] = 'Router tidak terhubung';
+            $modes = [];
+            foreach ($routerCustomers as $customer) {
+                if (in_array($customer->mode_user, ['PPPOE', 'Hotspot', 'Static'], true)) {
+                    $modes[$customer->mode_user] = true;
                 }
-                $API->disconnect();
-                continue;
+            }
+
+            $routerModeData = [];
+            $missingModes = [];
+            foreach (array_keys($modes) as $mode) {
+                $localCacheKey = $routerId . ':' . $mode;
+                if (isset($this->customerIpRouterModeCache[$localCacheKey])) {
+                    $routerModeData[$mode] = $this->customerIpRouterModeCache[$localCacheKey];
+                    continue;
+                }
+
+                $cacheKey = 'customer_ip_' . (int) $routerId . '_' . md5($mode);
+                $cachedModeData = $this->cache->get($cacheKey);
+                if (is_array($cachedModeData)) {
+                    $routerModeData[$mode] = $cachedModeData;
+                    $this->customerIpRouterModeCache[$localCacheKey] = $cachedModeData;
+                } else {
+                    $missingModes[] = $mode;
+                }
             }
 
             try {
-                $modes = [];
-                foreach ($routerCustomers as $customer) {
-                    $modes[$customer->mode_user] = true;
-                }
-
-                $pppoeActiveByUser = [];
-                $pppoeSecretByUser = [];
-                $hotspotActiveByUser = [];
-                $staticQueueByName = [];
-
-                if (isset($modes['PPPOE'])) {
-                    $pppoeActives = $API->comm('/ppp/active/print', ['?service' => 'pppoe']);
-                    foreach ((array) $pppoeActives as $active) {
-                        if (!empty($active['name']) && !empty($active['address'])) {
-                            $pppoeActiveByUser[$active['name']] = $active['address'];
+                if (!empty($missingModes)) {
+                    $API = new Mikweb();
+                    $API->attempts = 1;
+                    $API->timeout = 1;
+                    $API->delay = 0;
+                    if (!$API->connect($router['ip_address'], $router['username'], $router['password'], $router['port'])) {
+                        foreach ($routerCustomers as $customer) {
+                            $ipByCustomer[$customer->customer_id] = 'Router tidak terhubung';
                         }
-                    }
-
-                    $pppoeSecrets = $API->comm('/ppp/secret/print', ['?service' => 'pppoe']);
-                    foreach ((array) $pppoeSecrets as $secret) {
-                        if (!empty($secret['name']) && !empty($secret['remote-address'])) {
-                            $pppoeSecretByUser[$secret['name']] = $secret['remote-address'];
-                        }
+                        $API->disconnect();
+                        continue;
                     }
                 }
 
-                if (isset($modes['Hotspot'])) {
-                    $hotspotActives = $API->comm('/ip/hotspot/active/print');
-                    foreach ((array) $hotspotActives as $active) {
-                        if (!empty($active['user']) && !empty($active['address'])) {
-                            $hotspotActiveByUser[$active['user']] = $active['address'];
-                        }
-                    }
-                }
+                if (!empty($missingModes)) {
+                    try {
+                        foreach ($missingModes as $mode) {
+                            $modeData = [];
+                            if ($mode === 'PPPOE') {
+                                $modeData = ['active' => [], 'secret' => []];
+                                $pppoeActives = $API->comm('/ppp/active/print', ['?service' => 'pppoe']);
+                                foreach ((array) $pppoeActives as $active) {
+                                    if (!empty($active['name']) && !empty($active['address'])) {
+                                        $modeData['active'][$active['name']] = $active['address'];
+                                    }
+                                }
 
-                if (isset($modes['Static'])) {
-                    $queues = $API->comm('/queue/simple/print');
-                    foreach ((array) $queues as $queue) {
-                        if (!empty($queue['name']) && !empty($queue['target'])) {
-                            $staticQueueByName[$queue['name']] = trim(explode('/', $queue['target'], 2)[0]);
+                                $pppoeSecrets = $API->comm('/ppp/secret/print', ['?service' => 'pppoe']);
+                                foreach ((array) $pppoeSecrets as $secret) {
+                                    if (!empty($secret['name']) && !empty($secret['remote-address'])) {
+                                        $modeData['secret'][$secret['name']] = $secret['remote-address'];
+                                    }
+                                }
+                            } elseif ($mode === 'Hotspot') {
+                                $hotspotActives = $API->comm('/ip/hotspot/active/print');
+                                foreach ((array) $hotspotActives as $active) {
+                                    if (!empty($active['user']) && !empty($active['address'])) {
+                                        $modeData[$active['user']] = $active['address'];
+                                    }
+                                }
+                            } elseif ($mode === 'Static') {
+                                $queues = $API->comm('/queue/simple/print');
+                                foreach ((array) $queues as $queue) {
+                                    if (!empty($queue['name']) && !empty($queue['target'])) {
+                                        $modeData[$queue['name']] = trim(explode('/', $queue['target'], 2)[0]);
+                                    }
+                                }
+                            }
+
+                            $routerModeData[$mode] = $modeData;
+                            $localCacheKey = $routerId . ':' . $mode;
+                            $this->customerIpRouterModeCache[$localCacheKey] = $modeData;
+                            $this->cache->save('customer_ip_' . (int) $routerId . '_' . md5($mode), $modeData, 15);
                         }
+                    } finally {
+                        $API->disconnect();
                     }
                 }
 
                 foreach ($routerCustomers as $customer) {
                     $username = $customer->user_mikrotik;
                     if ($customer->mode_user === 'PPPOE') {
-                        $ip = isset($pppoeActiveByUser[$username])
-                            ? $pppoeActiveByUser[$username]
-                            : (isset($pppoeSecretByUser[$username]) ? $pppoeSecretByUser[$username] : '-');
+                        $modeData = isset($routerModeData['PPPOE']) ? $routerModeData['PPPOE'] : [];
+                        $ip = isset($modeData['active'][$username])
+                            ? $modeData['active'][$username]
+                            : (isset($modeData['secret'][$username]) ? $modeData['secret'][$username] : '-');
                     } elseif ($customer->mode_user === 'Hotspot') {
-                        $ip = isset($hotspotActiveByUser[$username]) ? $hotspotActiveByUser[$username] : '-';
+                        $modeData = isset($routerModeData['Hotspot']) ? $routerModeData['Hotspot'] : [];
+                        $ip = isset($modeData[$username]) ? $modeData[$username] : '-';
                     } elseif ($customer->mode_user === 'Static') {
-                        $ip = isset($staticQueueByName[$username]) ? $staticQueueByName[$username] : '-';
+                        $modeData = isset($routerModeData['Static']) ? $routerModeData['Static'] : [];
+                        $ip = isset($modeData[$username]) ? $modeData[$username] : '-';
                     } else {
                         $ip = '-';
                     }
@@ -1487,8 +1522,6 @@ class customer extends CI_Controller
                 foreach ($routerCustomers as $customer) {
                     $ipByCustomer[$customer->customer_id] = 'Gagal mengambil IP';
                 }
-            } finally {
-                $API->disconnect();
             }
         }
 
