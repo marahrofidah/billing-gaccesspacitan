@@ -1759,3 +1759,77 @@ ERROR - 2026-11-04 04:47:11 --> 404 Page Not Found: Assets/images
 =======
 >>>>>>> 6aecd12499fb4c6d2b2d6d4868b56475340d0223
 >>>>>>> 125479d9078177b3728698e3481e1a556e94e77d
+ERROR - 2026-11-04 04:48:57 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 04:49:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:49:03 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 04:49:04 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:27:36 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:27:44 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:27:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:27:44 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:27:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:27:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:44 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:27:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:27:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:27:48 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:27:50 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:27:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 05:27:54 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:54 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 254
+ERROR - 2026-11-04 11:27:55 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-04 11:27:55 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-04 05:27:55 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-04 05:27:58 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:59 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 254
+ERROR - 2026-11-04 05:28:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:28:18 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:28:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:33 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:28:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:28:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:28:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:28:48 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-04 11:28:48 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-04 05:28:49 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:49 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-04 05:28:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:57 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 891
+ERROR - 2026-11-04 05:28:58 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:59 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 254
+ERROR - 2026-11-04 07:06:50 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:06:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 07:11:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:11:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 07:12:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 13:12:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 13:12:07 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 13:12:26 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 13:12:26 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 07:12:26 --> 404 Page Not Found: Assets/images

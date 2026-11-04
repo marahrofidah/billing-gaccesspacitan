@@ -76,7 +76,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                         <th>Nama</th>
                         <th>Status</th>
                         <th>Auto Isolir</th>
-                        <th>Ppn</th>
+                        <th>Keterangan</th>
                         <th>No Telp.</th>
                         <th>Paket</th>
                         <?php if ($this->session->userdata('role_id') == 1) { ?>
@@ -109,7 +109,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                                 </a></td>
                             <td><?= $data->c_status ?></td>
                             <td><?= $data->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif' ?></td>
-                            <td style="text-align:center"><?= $data->ppn == 1 ? 'Yes' : 'No' ?></td>
+                            <td><?= html_escape($data->cust_description) ?></td>
                             <td><?= indo_tlp($data->no_wa) ?></td>
                             <td style="width: max-content;">
                                 <?php if ($data->no_services != 0) { ?>

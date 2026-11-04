@@ -1414,12 +1414,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
             }
@@ -1491,12 +1486,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
             }
@@ -1557,12 +1547,7 @@ class customer extends CI_Controller
             $row[] = $phone;
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
 
             if ($this->session->userdata('role_id') == 1) {
 
@@ -1626,12 +1611,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
@@ -1692,12 +1672,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
@@ -1769,11 +1744,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
             if ($this->session->userdata('role_id') == 1) {
 
                 $row[] = indo_currency($subtotal);
@@ -2143,12 +2114,7 @@ class customer extends CI_Controller
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status . '<br>Jatuh Tempo : ' . $result->due_date;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
-
-            if ($result->ppn == 1) {
-                $row[] = 'Yes';
-            } else {
-                $row[] = 'No';
-            }
+            $row[] = html_escape($result->cust_description);
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
