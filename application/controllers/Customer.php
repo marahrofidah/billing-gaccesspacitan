@@ -860,6 +860,23 @@ class customer extends CI_Controller
                 redirect('customer');
                 return;
             }
+            $oldNoServices = (string) $customer->no_services;
+            $newNoServices = (string) $post['no_services'];
+            $hasServicesToMove = $oldNoServices !== $newNoServices && $newNoServices !== '0';
+            if ($hasServicesToMove && $oldNoServices === '0') {
+                $servicesAtZero = $this->db
+                    ->where('no_services', $oldNoServices)
+                    ->count_all_results('services');
+                $otherCustomersAtZero = $this->db
+                    ->where('no_services', $oldNoServices)
+                    ->where('customer_id !=', $customer->customer_id)
+                    ->count_all_results('customer');
+                if ($servicesAtZero > 0 && $otherCustomersAtZero > 0) {
+                    $this->session->set_flashdata('error-sweet', 'Paket belum bisa dipindahkan: beberapa pelanggan masih memakai nomor layanan 0. Pastikan paket lama bisa diidentifikasi dengan nomor layanan terlebih dahulu.');
+                    redirect('customer/edit/' . $customer->customer_id);
+                    return;
+                }
+            }
             $post['email'] = $customer->email;
             $this->customer_m->edit($post);
             if ($this->db->affected_rows() > 0) {
@@ -867,9 +884,9 @@ class customer extends CI_Controller
                 $this->logs_m->activitylogs('Activity', $logamessage);
                 $this->session->set_flashdata('success-sweet', 'Data Pelanggan berhasil diperbaharui');
             }
-            if ($post['no_services'] != 0) {
+            if ($hasServicesToMove) {
                 $this->db->set('no_services', $post['no_services']);
-                $this->db->where('email', $customer->email);
+                $this->db->where('no_services', $customer->no_services);
                 $this->db->update('services');
             }
             echo "<script>window.location='" . site_url('customer') . "'; </script>";
@@ -1374,7 +1391,15 @@ class customer extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $subtotal = $this->getCustomerMonthlyAmount($result);
+            if ($result->no_services != 0) {
+                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
+            } else {
+                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
+            }
+            $querying = $this->db->query($query)->result();
+            $subtotal = 0;
+            foreach ($querying as  $dataa)
+                $subtotal += $dataa->total;
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1442,7 +1467,15 @@ class customer extends CI_Controller
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $subtotal = $this->getCustomerMonthlyAmount($result);
+            if ($result->no_services != 0) {
+                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
+            } else {
+                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
+            }
+            $querying = $this->db->query($query)->result();
+            $subtotal = 0;
+            foreach ($querying as  $dataa)
+                $subtotal += $dataa->total;
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
@@ -1707,7 +1740,15 @@ class customer extends CI_Controller
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
-            $subtotal = $this->getCustomerMonthlyAmount($result);
+            if ($result->no_services != 0) {
+                $query = "SELECT * FROM `services` WHERE `services`.`no_services` = $result->no_services";
+            } else {
+                $query = "SELECT * FROM `services` WHERE `services`.`email` = '$result->email'";
+            }
+            $querying = $this->db->query($query)->result();
+            $subtotal = 0;
+            foreach ($querying as  $dataa)
+                $subtotal +=  $dataa->total;
             $row = array();
             $row[] = ++$no;
             $row[] = '<input type=' . 'checkbox' . ' class=' . 'check-item' . ' id="ceklis" name=' . 'customer_id[]' . ' value=' . $result->customer_id . '>';
