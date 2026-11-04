@@ -250,7 +250,7 @@
                             <th>No Telp.</th>
                             <th>Status</th>
                             <th>Auto Isolir</th>
-                            <th>Ppn</th>
+                            <th>Keterangan</th>
                             <?php if ($this->session->userdata('role_id') == 1) { ?>
                                 <th style="width: 100px">Tagihan / Bulan</th>
                             <?php } ?>
