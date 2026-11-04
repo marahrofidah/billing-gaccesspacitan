@@ -777,7 +777,10 @@
 
             url: url,
 
-            data: "&id_odp=" + id_odp,
+            data: {
+                id_odp: id_odp,
+                customer_id: <?= (int) $customer->customer_id ?>
+            },
 
             cache: false,
 

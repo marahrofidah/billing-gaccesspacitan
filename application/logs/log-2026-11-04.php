@@ -1707,7 +1707,58 @@ ERROR - 2026-11-04 04:04:54 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 10:04:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
 =======
 >>>>>>> 783a7fc30b5d42dca6173a65aeb2c47c432834ad
+<<<<<<< HEAD
+ERROR - 2026-11-04 04:45:20 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 10:45:29 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+ERROR - 2026-11-04 04:46:59 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:47:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 04:47:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:47:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 04:47:11 --> 404 Page Not Found: Assets/images
+=======
 >>>>>>> 6aecd12499fb4c6d2b2d6d4868b56475340d0223
+<<<<<<< HEAD
 ERROR - 2026-11-04 04:15:11 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 10:15:11 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
 ERROR - 2026-11-04 04:38:04 --> 404 Page Not Found: Assets/images
@@ -2066,3 +2117,6 @@ ERROR - 2026-11-04 10:50:33 --> Severity: Warning --> Trying to access array off
 ERROR - 2026-11-04 10:50:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
 ERROR - 2026-11-04 10:50:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
 ERROR - 2026-11-04 10:50:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Odp.php 264
+=======
+>>>>>>> 125479d9078177b3728698e3481e1a556e94e77d
+>>>>>>> 3702d44d8f719433052bfabc25c4517adea1a8ad
