@@ -31,6 +31,7 @@
                             <th>Status</th>
                             <th>Auto Isolir</th>
                             <th>Keterangan</th>
+                            <th>IP</th>
                             <?php if ($this->session->userdata('role_id') == 1) { ?>
                                 <th style="width: 100px">Tagihan / Bulan</th>
                             <?php } ?>
@@ -165,7 +166,7 @@
                 searchPlaceholder: "No Layanan, Nama"
             },
             "columnDefs": [{
-                "targets": [0, 1, 8],
+                "targets": [0, 1, 9],
                 "orderable": false
             }],
 
