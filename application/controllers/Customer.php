@@ -210,6 +210,7 @@ class customer extends CI_Controller
         $data['title'] = 'Customer Filter';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $data['customer'] = $this->customer_m->getfilterby($post, $cover)->result();
+        $data['ip_by_customer'] = $this->getCustomerIpMap($data['customer']);
         $data['company'] = $this->db->get('company')->row_array();
         $this->template->load('backend', 'backend/customer/filterby', $data);
     }
@@ -1360,6 +1361,113 @@ class customer extends CI_Controller
     }
 
     // SERVER SIDE
+    private function getCustomerIpMap($customers)
+    {
+        $ipByCustomer = [];
+        $customersByRouter = [];
+
+        foreach ($customers as $customer) {
+            $ipByCustomer[$customer->customer_id] = '-';
+            if (!empty($customer->router) && !empty($customer->user_mikrotik)) {
+                $customersByRouter[$customer->router][] = $customer;
+            }
+        }
+
+        foreach ($customersByRouter as $routerId => $routerCustomers) {
+            $router = $this->db->get_where('router', ['id' => $routerId])->row_array();
+            if (empty($router)) {
+                foreach ($routerCustomers as $customer) {
+                    $ipByCustomer[$customer->customer_id] = 'Router tidak ditemukan';
+                }
+                continue;
+            }
+
+            $API = new Mikweb();
+            $API->attempts = 1;
+            $API->timeout = 1;
+            $API->delay = 0;
+            if (!$API->connect($router['ip_address'], $router['username'], $router['password'], $router['port'])) {
+                foreach ($routerCustomers as $customer) {
+                    $ipByCustomer[$customer->customer_id] = 'Router tidak terhubung';
+                }
+                $API->disconnect();
+                continue;
+            }
+
+            try {
+                $modes = [];
+                foreach ($routerCustomers as $customer) {
+                    $modes[$customer->mode_user] = true;
+                }
+
+                $pppoeActiveByUser = [];
+                $pppoeSecretByUser = [];
+                $hotspotActiveByUser = [];
+                $staticQueueByName = [];
+
+                if (isset($modes['PPPOE'])) {
+                    $pppoeActives = $API->comm('/ppp/active/print', ['?service' => 'pppoe']);
+                    foreach ((array) $pppoeActives as $active) {
+                        if (!empty($active['name']) && !empty($active['address'])) {
+                            $pppoeActiveByUser[$active['name']] = $active['address'];
+                        }
+                    }
+
+                    $pppoeSecrets = $API->comm('/ppp/secret/print', ['?service' => 'pppoe']);
+                    foreach ((array) $pppoeSecrets as $secret) {
+                        if (!empty($secret['name']) && !empty($secret['remote-address'])) {
+                            $pppoeSecretByUser[$secret['name']] = $secret['remote-address'];
+                        }
+                    }
+                }
+
+                if (isset($modes['Hotspot'])) {
+                    $hotspotActives = $API->comm('/ip/hotspot/active/print');
+                    foreach ((array) $hotspotActives as $active) {
+                        if (!empty($active['user']) && !empty($active['address'])) {
+                            $hotspotActiveByUser[$active['user']] = $active['address'];
+                        }
+                    }
+                }
+
+                if (isset($modes['Static'])) {
+                    $queues = $API->comm('/queue/simple/print');
+                    foreach ((array) $queues as $queue) {
+                        if (!empty($queue['name']) && !empty($queue['target'])) {
+                            $staticQueueByName[$queue['name']] = trim(explode('/', $queue['target'], 2)[0]);
+                        }
+                    }
+                }
+
+                foreach ($routerCustomers as $customer) {
+                    $username = $customer->user_mikrotik;
+                    if ($customer->mode_user === 'PPPOE') {
+                        $ip = isset($pppoeActiveByUser[$username])
+                            ? $pppoeActiveByUser[$username]
+                            : (isset($pppoeSecretByUser[$username]) ? $pppoeSecretByUser[$username] : '-');
+                    } elseif ($customer->mode_user === 'Hotspot') {
+                        $ip = isset($hotspotActiveByUser[$username]) ? $hotspotActiveByUser[$username] : '-';
+                    } elseif ($customer->mode_user === 'Static') {
+                        $ip = isset($staticQueueByName[$username]) ? $staticQueueByName[$username] : '-';
+                    } else {
+                        $ip = '-';
+                    }
+
+                    $ipByCustomer[$customer->customer_id] = html_escape($ip);
+                }
+            } catch (RuntimeException $exception) {
+                log_message('error', 'Failed to retrieve customer IPs from router ' . $routerId . ': ' . $exception->getMessage());
+                foreach ($routerCustomers as $customer) {
+                    $ipByCustomer[$customer->customer_id] = 'Gagal mengambil IP';
+                }
+            } finally {
+                $API->disconnect();
+            }
+        }
+
+        return $ipByCustomer;
+    }
+
     private function getCustomerMonthlyAmount($customer)
     {
         $this->db->from('services');
@@ -1387,6 +1495,7 @@ class customer extends CI_Controller
     public function getAllCustomer()
     {
         $result = $this->customer_m->getDataTable();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $company = $this->db->get('company')->row_array();
         $data = [];
         $no = $_POST['start'];
@@ -1415,6 +1524,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
             }
@@ -1459,6 +1569,7 @@ class customer extends CI_Controller
     public function getActiveCustomer()
     {
         $result = $this->customer_m->getActive();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
@@ -1487,6 +1598,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
             }
@@ -1529,6 +1641,7 @@ class customer extends CI_Controller
     public function getNonActiveCustomer()
     {
         $result = $this->customer_m->getNonActive();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
@@ -1548,6 +1661,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
 
             if ($this->session->userdata('role_id') == 1) {
 
@@ -1592,6 +1706,7 @@ class customer extends CI_Controller
     public function getCustomerfree()
     {
         $result = $this->customer_m->getfree();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
@@ -1612,6 +1727,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
@@ -1653,6 +1769,7 @@ class customer extends CI_Controller
     public function getCustomerisolir()
     {
         $result = $this->customer_m->getisolir();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
@@ -1673,6 +1790,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);
@@ -1717,6 +1835,7 @@ class customer extends CI_Controller
     public function getWaitCustomer()
     {
         $result = $this->customer_m->getWait();
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
@@ -1745,6 +1864,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
             if ($this->session->userdata('role_id') == 1) {
 
                 $row[] = indo_currency($subtotal);
@@ -2099,6 +2219,7 @@ class customer extends CI_Controller
     {
         $post = $this->input->post(null, TRUE);
         $result = $this->customer_m->getfilterbycoverage($post);
+        $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
         $rt = $this->db->get('router')->row_array();
         $no = $_POST['start'];
@@ -2115,6 +2236,7 @@ class customer extends CI_Controller
             $row[] = $result->c_status . '<br>Jatuh Tempo : ' . $result->due_date;
             $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             $row[] = html_escape($result->cust_description);
+            $row[] = $ipByCustomer[$result->customer_id];
 
             if ($this->session->userdata('role_id') == 1) {
                 $row[] = indo_currency($subtotal);

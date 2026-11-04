@@ -2197,3 +2197,7 @@ ERROR - 2026-11-04 07:12:26 --> 404 Page Not Found: Assets/images
 =======
 >>>>>>> 3702d44d8f719433052bfabc25c4517adea1a8ad
 >>>>>>> d3d8cea3d4003dda538ce7633eecef149ac69025
+ERROR - 2026-11-04 07:16:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:16:13 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 08:15:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 14:15:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
