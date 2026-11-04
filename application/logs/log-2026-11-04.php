@@ -5748,3 +5748,61 @@ ERROR - 2026-11-04 14:13:12 --> Severity: Warning --> Undefined array key "lengt
 =======
 >>>>>>> 9612bd0bb6a97968182005ec69bbd916339ac318
 >>>>>>> 4aad22d6db5b70f28a8d79fd82ec243f9783b902
+ERROR - 2026-11-04 08:16:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 14:16:45 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:04 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:18 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:17:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 14:19:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 2023
+ERROR - 2026-11-04 14:19:15 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:19 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 14:19:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 14:19:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 2023
+ERROR - 2026-11-04 14:19:20 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 14:19:23 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 14:19:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 14:19:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 2023
+ERROR - 2026-11-04 14:19:24 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 14:19:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 14:19:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 12
+ERROR - 2026-11-04 14:19:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 14:19:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 14:19:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 14:19:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 2023
+ERROR - 2026-11-04 14:19:39 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 08:20:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 14:20:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 08:20:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 08:20:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 14:20:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
