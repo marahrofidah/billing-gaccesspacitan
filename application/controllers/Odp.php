@@ -255,20 +255,33 @@ class Odp extends CI_Controller
 
         echo "<option value=''>-Pilih-</option>";
 
-
+        $customerId = (int) $this->input->post('customer_id');
+        $customersByPort = [];
+        $customers = $this->db->get_where('customer', ['id_odp' => $post['id_odp']])->result_array();
+        foreach ($customers as $customer) {
+            $port = (int) $customer['no_port_odp'];
+            if ($port > 0) {
+                $customersByPort[$port][] = $customer;
+            }
+        }
 
         for ($x = 1; $x <= $odp['total_port']; $x += 1) {
+            $portCustomers = isset($customersByPort[$x]) ? $customersByPort[$x] : [];
+            $occupants = array_filter($portCustomers, function ($customer) use ($customerId) {
+                return $customerId === 0 || (int) $customer['customer_id'] !== $customerId;
+            });
 
-            $customer = $this->db->get_where('customer', ['no_port_odp' => $x, 'id_odp' => $post['id_odp']])->row_array();
-
-            if ($customer['c_status'] == 'Free' or $customer['c_status'] == 'Aktif') {
-
-                echo "<option value='$x' disabled>$x - Sudah digunakan - $customer[no_services]  A/N  $customer[name] - $customer[c_status]</option>";
+            if (!empty($occupants)) {
+                $labels = [];
+                foreach ($occupants as $customer) {
+                    $status = $customer['c_status'] !== '' ? $customer['c_status'] : 'Tidak diketahui';
+                    $labels[] = html_escape($customer['no_services'] . ' A/N ' . $customer['name'] . ' - ' . $status);
+                }
+                $description = implode('; ', $labels);
+                echo "<option value='$x' disabled>" . html_escape((string) $x) . " - Sudah digunakan - {$description}</option>";
             } else {
 
-
-
-                echo "<option value='$x'>$x</option>";
+                echo "<option value='" . html_escape((string) $x) . "'>" . html_escape((string) $x) . "</option>";
             }
         }
     }
