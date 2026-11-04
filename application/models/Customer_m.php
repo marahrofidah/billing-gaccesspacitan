@@ -535,6 +535,22 @@ class Customer_m extends CI_Model
         return $query;
     }
     // SERVER SIDE
+    private function _applyIpSearchFilter()
+    {
+        if (empty($_POST['ip_search'])) {
+            return false;
+        }
+
+        $customerIds = isset($_POST['ip_customer_ids']) ? $_POST['ip_customer_ids'] : [];
+        if (empty($customerIds)) {
+            $this->db->where('customer_id', 0);
+        } else {
+            $this->db->where_in('customer_id', $customerIds);
+        }
+
+        return true;
+    }
+
     private function _get_data_query()
     {
         $role_id = $this->session->userdata('role_id');
@@ -549,7 +565,7 @@ class Customer_m extends CI_Model
             // die;
             $this->db->from($this->table);
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->or_like('no_services', $_POST['search']['value']);
                 $this->db->where_in('coverage', $row);
@@ -557,7 +573,7 @@ class Customer_m extends CI_Model
         } else {
             $this->db->from($this->table);
 
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
 
                 $this->db->or_like('no_services', $_POST['search']['value']);
@@ -592,7 +608,7 @@ class Customer_m extends CI_Model
             $this->db->from($this->table);
             $this->db->where('c_status', 'Aktif');
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->where('c_status', 'Aktif');
                 $this->db->or_like('no_services', $_POST['search']['value']);
@@ -602,7 +618,7 @@ class Customer_m extends CI_Model
         } else {
             $this->db->from($this->table);
             $this->db->where('c_status', 'Aktif');
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->or_like('no_services', $_POST['search']['value']);
 
@@ -651,7 +667,7 @@ class Customer_m extends CI_Model
             $this->db->from($this->table);
             $this->db->where('c_status', 'Non-Aktif');
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->where('c_status', 'Non-Aktif');
                 $this->db->or_like('no_services', $_POST['search']['value']);
@@ -660,7 +676,7 @@ class Customer_m extends CI_Model
         } else {
             $this->db->from($this->table);
             $this->db->where('c_status', 'Non-Aktif');
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->or_like('no_services', $_POST['search']['value']);
                 $this->db->where('c_status', 'Non-Aktif');
@@ -698,7 +714,7 @@ class Customer_m extends CI_Model
             $this->db->from($this->table);
             $this->db->where('c_status', 'Menunggu');
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->or_like('no_services', $_POST['search']['value']);
                 $this->db->where('c_status', 'Menunggu');
@@ -707,7 +723,7 @@ class Customer_m extends CI_Model
         } else {
             $this->db->from($this->table);
             $this->db->where('c_status', 'Menunggu');
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->or_like('no_services', $_POST['search']['value']);
                 $this->db->where('c_status', 'Menunggu');
@@ -832,13 +848,13 @@ class Customer_m extends CI_Model
             $this->db->from($this->table);
             $this->db->where('c_status', 'Free');
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
             }
         } else {
             $this->db->from($this->table);
             $this->db->where('c_status', 'Free');
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
                 $this->db->where('c_status', 'Free');
             }
@@ -890,7 +906,7 @@ class Customer_m extends CI_Model
             $this->db->where('mode_user !=', '');
             $this->db->where('user_mikrotik !=', '');
             $this->db->where_in('coverage', $row);
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
             }
         } else {
@@ -898,7 +914,7 @@ class Customer_m extends CI_Model
             $this->db->where('connection', 1);
             $this->db->where('mode_user !=', '');
             $this->db->where('user_mikrotik !=', '');
-            if (isset($_POST['search']['value'])) {
+            if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
                 $this->db->like('name', $_POST['search']['value']);
 
 
@@ -1091,7 +1107,7 @@ class Customer_m extends CI_Model
         if ($this->session->userdata('role_id') == 4) {
             $this->db->where('mitra', $this->session->userdata('id'));
         }
-        if (isset($_POST['search']['value'])) {
+        if (!$this->_applyIpSearchFilter() && isset($_POST['search']['value'])) {
             $this->db->like('name', $_POST['search']['value']);
             //   $this->db->or_like('address', $_POST['search']['value']);
             if ($this->session->userdata('role_id') == 4) {

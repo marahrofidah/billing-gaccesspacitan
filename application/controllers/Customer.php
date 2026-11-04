@@ -1361,6 +1361,33 @@ class customer extends CI_Controller
     }
 
     // SERVER SIDE
+    private function prepareCustomerIpSearch()
+    {
+        $searchValue = isset($_POST['search']['value']) && is_string($_POST['search']['value'])
+            ? trim($_POST['search']['value'])
+            : '';
+        if ($searchValue === '' || !preg_match('/^[0-9a-fA-F:.]+$/', $searchValue) || (strpos($searchValue, '.') === false && strpos($searchValue, ':') === false)) {
+            return;
+        }
+
+        $customers = $this->db
+            ->where('router !=', 0)
+            ->where('user_mikrotik !=', '')
+            ->get('customer')
+            ->result();
+        $ipByCustomer = $this->getCustomerIpMap($customers);
+        $matchingCustomerIds = [];
+
+        foreach ($ipByCustomer as $customerId => $ip) {
+            if (strpos($ip, $searchValue) !== false) {
+                $matchingCustomerIds[] = $customerId;
+            }
+        }
+
+        $_POST['ip_search'] = true;
+        $_POST['ip_customer_ids'] = $matchingCustomerIds;
+    }
+
     private function getCustomerIpMap($customers)
     {
         $ipByCustomer = [];
@@ -1494,6 +1521,7 @@ class customer extends CI_Controller
 
     public function getAllCustomer()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getDataTable();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $company = $this->db->get('company')->row_array();
@@ -1568,6 +1596,7 @@ class customer extends CI_Controller
     }
     public function getActiveCustomer()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getActive();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
@@ -1640,6 +1669,7 @@ class customer extends CI_Controller
     }
     public function getNonActiveCustomer()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getNonActive();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
@@ -1705,6 +1735,7 @@ class customer extends CI_Controller
     }
     public function getCustomerfree()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getfree();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
@@ -1768,6 +1799,7 @@ class customer extends CI_Controller
     }
     public function getCustomerisolir()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getisolir();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
@@ -1834,6 +1866,7 @@ class customer extends CI_Controller
     }
     public function getWaitCustomer()
     {
+        $this->prepareCustomerIpSearch();
         $result = $this->customer_m->getWait();
         $ipByCustomer = $this->getCustomerIpMap($result);
         $data = [];
@@ -2217,6 +2250,7 @@ class customer extends CI_Controller
     }
     public function getfiltercoverage()
     {
+        $this->prepareCustomerIpSearch();
         $post = $this->input->post(null, TRUE);
         $result = $this->customer_m->getfilterbycoverage($post);
         $ipByCustomer = $this->getCustomerIpMap($result);
