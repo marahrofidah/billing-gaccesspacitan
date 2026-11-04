@@ -2196,8 +2196,2334 @@ ERROR - 2026-11-04 13:12:26 --> Severity: Warning --> Undefined variable $ppn C:
 ERROR - 2026-11-04 07:12:26 --> 404 Page Not Found: Assets/images
 =======
 >>>>>>> 3702d44d8f719433052bfabc25c4517adea1a8ad
+<<<<<<< HEAD
+ERROR - 2026-11-04 04:51:13 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 04:51:46 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:51:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 10:52:12 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 10:52:12 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 12
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 10:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1932
+ERROR - 2026-11-04 10:52:16 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 10:52:17 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 10:52:17 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 04:53:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 04:53:10 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:53:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:12 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:14 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:22 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:53:22 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:53:22 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:53:37 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:53:37 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:53:37 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:53:42 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:53:42 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:53:42 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:53:45 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:53:45 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:53:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 04:53:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:53:51 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:53:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:14 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:54:14 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:54:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:54:22 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:54:22 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:54:22 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:54:31 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:54:31 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:54:35 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:54:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:39 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:54:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 04:55:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 04:55:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:32 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 04:55:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:55:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 04:55:59 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:56:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:56:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:12 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:57:12 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:57:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:57:24 --> Severity: Warning --> Undefined variable $code_unique C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 351
+ERROR - 2026-11-04 10:57:24 --> Severity: Warning --> Undefined variable $ppn C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoice_detail.php 545
+ERROR - 2026-11-04 04:57:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 04:57:28 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:57:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:33 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:50 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:50 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:50 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:50 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:57:50 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 04:58:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:58:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 04:58:34 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:58:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:36 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:38 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:45 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:45 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:45 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:58:45 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 04:59:15 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 04:59:18 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:24 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:25 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:28 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 04:59:40 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 10:59:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:48 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 10:59:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2909
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\helpers\login_helper.php 2910
+ERROR - 2026-11-04 05:00:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:00:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 05:00:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:00:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:09 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:00:09 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:00:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:00:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:00:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:33 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:38 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:00:43 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:00:43 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:01:17 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:01:17 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:01:54 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:02:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:02:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:02:16 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:02:16 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:02:35 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:02:35 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:05:22 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:05:22 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:08:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:08:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:08:55 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:08:55 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:09:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:09:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:18 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:21 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:09:22 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 05:09:38 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:09:38 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:09:40 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:09:40 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:10:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:10:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:10:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:10:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:10:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:37 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:40 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:41 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:42 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:51 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:53 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:10:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:11:03 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:03 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:11:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:11:04 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:19 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:29 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:47 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:47 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:47 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:11:47 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:11:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:11:48 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:50 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:51 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:53 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:11:54 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:12:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:12:06 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:12:09 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 11:12:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1932
+ERROR - 2026-11-04 11:12:09 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:12:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:12:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:12:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:12:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:12:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:12:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 05:12:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:12:30 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:12:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:12:30 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:12:30 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:12:30 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:12:36 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:12:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:12:40 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:12:41 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:12:41 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:12:42 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:12:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:12:48 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 827
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1219
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1048
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1108
+ERROR - 2026-11-04 11:12:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1152
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:52 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:54 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:12:55 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3495
+ERROR - 2026-11-04 11:13:00 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:13:00 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:13:00 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:13:00 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:13:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:13:00 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:13:04 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:13:04 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:13:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:13:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:13:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:13:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:13:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:13:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:13:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:13:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:13:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:15:13 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:15:17 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:17 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:15:17 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:15:17 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:19 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:19 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:20 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:22 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:25 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:27 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:29 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:29 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:34 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:34 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:15:34 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:15:34 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:15:34 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:37 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:15:38 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:15:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:15:44 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:15:46 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:15:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:15:47 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:16:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:08 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:08 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:08 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:08 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:08 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:16:13 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:13 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:15 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:16 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:16:18 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:16:23 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:23 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:27 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:27 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:27 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:16:27 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:16:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:28 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:16:29 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:16:30 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:16:30 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 05:16:35 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:35 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:39 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:16:39 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:16:42 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:16:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:16:49 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:55 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:16:57 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:17:02 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:17:02 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:17:03 --> Severity: Warning --> Undefined variable $role C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 11:17:03 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\draf.php 157
+ERROR - 2026-11-04 05:17:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:17:03 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:17:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:17:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:17:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 632
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:22:00 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:22:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:22:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:22:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:25 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:23:25 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:23:30 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:23:32 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:23:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:23:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:24:30 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:24:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:24:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:25:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:25:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:25:45 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:26:15 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:26:15 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:26:17 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:06 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:27:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:27:08 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:27:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:27:42 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:27:43 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:02 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:28:02 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:28:29 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:28:56 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:28:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:28:58 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:29:34 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:29:34 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:29:36 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:08 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:30:08 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:30:10 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:30:50 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:30:50 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:30:55 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:32:27 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:32:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:35:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:37:21 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:37:21 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:37:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:16 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:38:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:38:18 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:38:42 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:38:42 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:39:20 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 11:39:36 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 05:39:37 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:45:35 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:46:01 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:46:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 05:46:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:46:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:46:49 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:46:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:46:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:47:00 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:47:00 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:47:42 --> Severity: Warning --> Array to string conversion C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1934
+ERROR - 2026-11-04 11:47:42 --> Severity: error --> Exception: Unknown column 'Array' in 'WHERE' C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 05:49:53 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 05:50:29 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 11:50:29 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\customer\get-data-customer.php 8
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Customer.php 1932
+ERROR - 2026-11-04 11:51:06 --> Severity: error --> Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 C:\xampp\htdocs\billing-gaccesspacitan\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:12 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:23 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:38 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:39 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:40 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:41 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:41 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:41 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:41 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:41 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:42 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:43 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:44 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:44 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:44 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:44 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:44 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:45 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:46 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:47 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:48 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:56 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:58 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:51:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:00 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:01 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:03 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:04 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:04 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:04 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:04 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:04 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:05 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:06 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:07 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:08 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:09 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:11 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:13 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:14 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:15 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:16 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:17 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:18 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:19 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:20 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:21 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:22 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:24 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:26 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:27 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:28 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:29 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:30 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:31 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:32 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:33 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:34 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:35 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:52:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:52:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:52:37 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:55:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:49 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 11:55:50 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 12:04:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 12:04:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 12:04:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1141
+ERROR - 2026-11-04 12:04:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1083
+ERROR - 2026-11-04 12:04:59 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 1102
+ERROR - 2026-11-04 06:05:26 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 12:05:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 06:27:38 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:29:39 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:29:52 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:33:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:33:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:38:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:38:25 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:40:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:40:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:41:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:41:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:43:14 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:43:19 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 12:43:19 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 06:43:26 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:43:32 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 12:43:32 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 06:43:47 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 12:43:52 --> Severity: Warning --> Undefined array key "no_port_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 391
+ERROR - 2026-11-04 06:43:52 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 12:43:52 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 12:44:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 06:46:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:51:00 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:51:05 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:57:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 06:57:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:00:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:00:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:01:48 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:01:51 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:03:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:03:33 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:05:04 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:05:07 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:07:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:07:28 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:09 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 07:08:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:08:16 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 13:08:29 --> Severity: Warning --> Undefined array key "id_odp" C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\odp\odp.php 250
+ERROR - 2026-11-04 07:08:29 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:08:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:10:04 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:10:06 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:11:41 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:11:44 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:13:12 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 07:13:20 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 13:13:20 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+=======
 >>>>>>> d3d8cea3d4003dda538ce7633eecef149ac69025
+<<<<<<< HEAD
 ERROR - 2026-11-04 07:16:12 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 13:16:13 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
 ERROR - 2026-11-04 08:15:01 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 14:15:02 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+=======
+>>>>>>> 9a9148da537cc564d015d1e8e1e0e5532ab98912
+>>>>>>> 9612bd0bb6a97968182005ec69bbd916339ac318
