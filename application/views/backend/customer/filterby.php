@@ -75,6 +75,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                         <th>No Layanan</th>
                         <th>Nama</th>
                         <th>Status</th>
+                        <th>Auto Isolir</th>
                         <th>Ppn</th>
                         <th>No Telp.</th>
                         <th>Paket</th>
@@ -107,6 +108,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                                     <div class="badge badge-primary"><?= $data->name ?></div>
                                 </a></td>
                             <td><?= $data->c_status ?></td>
+                            <td><?= $data->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif' ?></td>
                             <td style="text-align:center"><?= $data->ppn == 1 ? 'Yes' : 'No' ?></td>
                             <td><?= indo_tlp($data->no_wa) ?></td>
                             <td style="width: max-content;">

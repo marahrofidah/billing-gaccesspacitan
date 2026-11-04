@@ -1413,6 +1413,7 @@ class customer extends CI_Controller
             }
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
@@ -1489,6 +1490,7 @@ class customer extends CI_Controller
             }
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
@@ -1554,6 +1556,7 @@ class customer extends CI_Controller
             }
             $row[] = $phone;
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
@@ -1622,6 +1625,7 @@ class customer extends CI_Controller
             }
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
@@ -1687,6 +1691,7 @@ class customer extends CI_Controller
             }
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
@@ -1763,6 +1768,7 @@ class customer extends CI_Controller
             }
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
             } else {
@@ -2136,6 +2142,7 @@ class customer extends CI_Controller
 
             $row[] = indo_tlp($result->no_wa);
             $row[] = $result->c_status . '<br>Jatuh Tempo : ' . $result->due_date;
+            $row[] = $result->auto_isolir == 1 ? 'Aktif' : 'Non-Aktif';
 
             if ($result->ppn == 1) {
                 $row[] = 'Yes';
