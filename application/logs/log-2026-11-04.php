@@ -19,3 +19,7 @@ ERROR - 2026-11-04 08:27:26 --> Severity: Warning --> Undefined array key "lengt
 ERROR - 2026-11-04 02:27:29 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 02:27:35 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-04 08:27:36 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 04:05:23 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:05:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
+ERROR - 2026-11-04 04:12:13 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-04 10:12:14 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Customer_m.php 622
