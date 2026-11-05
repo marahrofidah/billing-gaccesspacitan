@@ -295,6 +295,7 @@ class customer extends CI_Controller
         $this->form_validation->set_rules('no_ktp', 'ID Card', 'trim');
         $this->form_validation->set_rules('no_services', 'No Service', 'required|trim|is_unique[customer.no_services]');
         $this->form_validation->set_rules('no_wa', 'No Whatsapp', 'trim');
+        $this->form_validation->set_rules('ip_validation', 'IP', 'callback_customer_ip_unique_check');
         if ($post['email'] !== '') {
             $this->form_validation->set_rules('email', 'Email', 'trim|valid_email|is_unique[customer.email]');
         }
@@ -897,6 +898,206 @@ class customer extends CI_Controller
 
     public function detail($no_services)
     {
+    }
+
+    public function customer_ip_unique_check($input = '')
+    {
+        $post = $this->input->post(null, TRUE);
+        $isCreateNew = (isset($post['createnew']) && $post['createnew'] == 1)
+            || (isset($post['createusermikrotik']) && $post['createusermikrotik'] == 1);
+        $isSync = (isset($post['sinkron']) && $post['sinkron'] == 1)
+            || (isset($post['sinkronisasi']) && $post['sinkronisasi'] == 1);
+        if ((!$isCreateNew && !$isSync) || empty($post['mode_user']) || !is_string($post['mode_user'])) {
+            return TRUE;
+        }
+
+        $candidateValues = [];
+        $syncedUsername = '';
+        if ($isSync) {
+            $syncedUsername = isset($post['user_sinkron']) && is_string($post['user_sinkron'])
+                ? trim($post['user_sinkron'])
+                : '';
+            if ($syncedUsername === '') {
+                return TRUE;
+            }
+        } else {
+            if ($post['mode_user'] === 'Static') {
+                $candidateValues[] = isset($post['target']) ? $post['target'] : '';
+            } elseif ($post['mode_user'] === 'PPPOE') {
+                if (!empty($post['remoteaddress'])) {
+                    $candidateValues[] = $post['remoteaddress'];
+                }
+                if (isset($post['type_ip']) && $post['type_ip'] == 1 && !empty($post['target'])) {
+                    $candidateValues[] = $post['target'];
+                }
+            }
+        }
+
+        $candidateIps = [];
+        foreach ($candidateValues as $value) {
+            if (!is_string($value)) {
+                continue;
+            }
+            foreach (explode(',', $value) as $address) {
+                $parts = explode('/', trim($address), 2);
+                $ip = trim($parts[0]);
+                if (filter_var($ip, FILTER_VALIDATE_IP) !== FALSE) {
+                    $candidateIps[bin2hex(inet_pton($ip))] = $ip;
+                }
+            }
+        }
+
+        if (empty($candidateIps) && !$isSync) {
+            return TRUE;
+        }
+
+        $router = !empty($post['router']) && is_scalar($post['router'])
+            ? $this->db->get_where('router', ['id' => $post['router']])->row_array()
+            : null;
+        if (empty($router)) {
+            $this->form_validation->set_message('customer_ip_unique_check', 'Router tidak ditemukan, IP tidak dapat diperiksa.');
+            return FALSE;
+        }
+
+        if ($isSync) {
+            $existingCustomers = $this->db
+                ->where('router', $router['id'])
+                ->where('user_mikrotik !=', '')
+                ->get('customer')
+                ->result();
+            $selectedCustomer = (object) [
+                'customer_id' => '__sync_candidate__',
+                'router' => $router['id'],
+                'mode_user' => $post['mode_user'],
+                'user_mikrotik' => $syncedUsername,
+            ];
+            $customerIps = $this->getCustomerIpMap(array_merge($existingCustomers, [$selectedCustomer]));
+            $selectedIp = isset($customerIps['__sync_candidate__']) ? $customerIps['__sync_candidate__'] : '';
+            $selectedIpParts = explode('/', trim($selectedIp), 2);
+            $selectedIp = trim($selectedIpParts[0]);
+
+            if (filter_var($selectedIp, FILTER_VALIDATE_IP) !== FALSE) {
+                $normalizedSelectedIp = bin2hex(inet_pton($selectedIp));
+                foreach ($existingCustomers as $existingCustomer) {
+                    $existingIp = isset($customerIps[$existingCustomer->customer_id])
+                        ? trim(explode('/', $customerIps[$existingCustomer->customer_id], 2)[0])
+                        : '';
+                    if (filter_var($existingIp, FILTER_VALIDATE_IP) !== FALSE && bin2hex(inet_pton($existingIp)) === $normalizedSelectedIp) {
+                        $this->form_validation->set_message('customer_ip_unique_check', 'IP ' . $selectedIp . ' sudah digunakan pelanggan lain. Nama pelanggan boleh sama, tetapi IP harus berbeda.');
+                        return FALSE;
+                    }
+                }
+            }
+        }
+
+        $API = new Mikweb();
+        $API->attempts = 1;
+        $API->timeout = 2;
+        $API->delay = 0;
+        if (!$API->connect($router['ip_address'], $router['username'], $router['password'], $router['port'])) {
+            $API->disconnect();
+            log_message('error', 'Unable to verify duplicate customer IP because router ' . $router['id'] . ' is unreachable.');
+            $this->form_validation->set_message('customer_ip_unique_check', 'Router tidak terhubung, IP tidak dapat diperiksa. Coba lagi setelah router terhubung.');
+            return FALSE;
+        }
+
+        try {
+            $responses = [
+                $API->comm('/ppp/active/print', ['?service' => 'pppoe']),
+                $API->comm('/ppp/secret/print', ['?service' => 'pppoe']),
+                $API->comm('/ip/hotspot/active/print'),
+                $API->comm('/queue/simple/print'),
+            ];
+        } finally {
+            $API->disconnect();
+        }
+
+        foreach ($responses as $response) {
+            if (isset($response['!trap'])) {
+                log_message('error', 'Unable to verify duplicate customer IP on router ' . $router['id'] . ': ' . json_encode($response['!trap']));
+                $this->form_validation->set_message('customer_ip_unique_check', 'IP tidak dapat diperiksa dari router. Coba lagi setelah koneksi router normal.');
+                return FALSE;
+            }
+        }
+
+        $selectedResponseIndexes = [];
+        $identityFields = ['name', 'name', 'user', 'name'];
+        if ($isSync) {
+            if ($post['mode_user'] === 'PPPOE') {
+                $selectedResponseIndexes = [0, 1];
+                if (isset($post['type_ip']) && $post['type_ip'] == 1) {
+                    $selectedResponseIndexes[] = 3;
+                }
+            } elseif ($post['mode_user'] === 'Hotspot') {
+                $selectedResponseIndexes = [2];
+            } elseif ($post['mode_user'] === 'Static') {
+                $selectedResponseIndexes = [3];
+            } else {
+                return TRUE;
+            }
+            foreach ($selectedResponseIndexes as $responseIndex) {
+                $valueField = $responseIndex === 1 ? 'remote-address' : ($responseIndex === 3 ? 'target' : 'address');
+                foreach ((array) $responses[$responseIndex] as $entry) {
+                    $username = isset($entry[$identityFields[$responseIndex]]) ? $entry[$identityFields[$responseIndex]] : '';
+                    if ($username !== $syncedUsername || empty($entry[$valueField])) {
+                        continue;
+                    }
+
+                    $values = $responseIndex === 3 ? explode(',', $entry[$valueField]) : [$entry[$valueField]];
+                    foreach ($values as $value) {
+                        $parts = explode('/', trim($value), 2);
+                        $ip = trim($parts[0]);
+                        if (filter_var($ip, FILTER_VALIDATE_IP) !== FALSE) {
+                            $candidateIps[bin2hex(inet_pton($ip))] = $ip;
+                        }
+                    }
+                }
+            }
+
+            if (empty($candidateIps)) {
+                return TRUE;
+            }
+        }
+
+        foreach ($responses as $responseIndex => $response) {
+            foreach ((array) $response as $entry) {
+                $username = isset($entry[$identityFields[$responseIndex]]) ? $entry[$identityFields[$responseIndex]] : '';
+                if ($isSync && in_array($responseIndex, $selectedResponseIndexes, true) && $username === $syncedUsername) {
+                    continue;
+                }
+
+                if ($responseIndex === 0 && !empty($entry['address'])) {
+                    $values = [$entry['address']];
+                } elseif ($responseIndex === 1 && !empty($entry['remote-address'])) {
+                    $values = [$entry['remote-address']];
+                } elseif ($responseIndex === 2 && !empty($entry['address'])) {
+                    $values = [$entry['address']];
+                } elseif ($responseIndex === 3 && !empty($entry['target'])) {
+                    $values = explode(',', $entry['target']);
+                } else {
+                    continue;
+                }
+
+                foreach ($values as $value) {
+                    $parts = explode('/', trim($value), 2);
+                    $ip = trim($parts[0]);
+                    if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
+                        continue;
+                    }
+
+                    $normalizedIp = bin2hex(inet_pton($ip));
+                    if (isset($candidateIps[$normalizedIp])) {
+                        $message = $isSync
+                            ? 'IP ' . $candidateIps[$normalizedIp] . ' milik user MikroTik yang dipilih sudah digunakan user lain pada router ini. Tidak bisa disinkronkan.'
+                            : 'IP ' . $candidateIps[$normalizedIp] . ' sudah digunakan pada router ini. Silakan gunakan IP lain.';
+                        $this->form_validation->set_message('customer_ip_unique_check', $message);
+                        return FALSE;
+                    }
+                }
+            }
+        }
+
+        return TRUE;
     }
 
     function email_check()

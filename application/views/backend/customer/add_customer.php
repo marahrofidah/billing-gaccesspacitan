@@ -432,6 +432,7 @@
                             </div>
                         </div>
                     </div>
+                    <?= form_error('ip_validation', '<small class="text-danger pl-3">', '</small>') ?>
                     <div class="form-group">
                         <div id="parent" style="display: none">
                             <label>Parent</label>
