@@ -8,12 +8,177 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 class Bill extends CI_Controller
 {
+    private $customerIpRouterModeCache = [];
+
     function __construct()
     {
         parent::__construct();
         is_logged_in();
         $this->load->model(['customer_m', 'package_m', 'services_m', 'setting_m', 'bill_m', 'income_m', 'logs_m', 'coverage_m']);
     }
+
+    private function getInvoiceCustomerIpMap($customers)
+    {
+        $ipByCustomer = [];
+        $customersByRouter = [];
+
+        foreach ($customers as $customer) {
+            $ipByCustomer[$customer->customer_id] = '-';
+            if (!empty($customer->router) && !empty($customer->user_mikrotik)) {
+                $customersByRouter[$customer->router][] = $customer;
+            }
+        }
+
+        $this->load->driver('cache', ['adapter' => 'file', 'backup' => 'dummy']);
+
+        foreach ($customersByRouter as $routerId => $routerCustomers) {
+            $router = $this->db->get_where('router', ['id' => $routerId])->row_array();
+            if (empty($router)) {
+                foreach ($routerCustomers as $customer) {
+                    $ipByCustomer[$customer->customer_id] = 'Router tidak ditemukan';
+                }
+                continue;
+            }
+
+            $modes = [];
+            foreach ($routerCustomers as $customer) {
+                if (in_array($customer->mode_user, ['PPPOE', 'Hotspot', 'Static'], true)) {
+                    $modes[$customer->mode_user] = true;
+                }
+            }
+
+            $routerModeData = [];
+            $missingModes = [];
+            foreach (array_keys($modes) as $mode) {
+                $localCacheKey = $routerId . ':' . $mode;
+                if (isset($this->customerIpRouterModeCache[$localCacheKey])) {
+                    $routerModeData[$mode] = $this->customerIpRouterModeCache[$localCacheKey];
+                    continue;
+                }
+
+                $cacheKey = 'customer_ip_' . (int) $routerId . '_' . md5($mode);
+                $cachedModeData = $this->cache->get($cacheKey);
+                if (is_array($cachedModeData)) {
+                    $routerModeData[$mode] = $cachedModeData;
+                    $this->customerIpRouterModeCache[$localCacheKey] = $cachedModeData;
+                } else {
+                    $missingModes[] = $mode;
+                }
+            }
+
+            if (!empty($missingModes)) {
+                $API = new Mikweb();
+                $API->attempts = 1;
+                $API->timeout = 1;
+                $API->delay = 0;
+                if (!$API->connect($router['ip_address'], $router['username'], $router['password'], $router['port'])) {
+                    foreach ($routerCustomers as $customer) {
+                        $ipByCustomer[$customer->customer_id] = 'Router tidak terhubung';
+                    }
+                    $API->disconnect();
+                    continue;
+                }
+
+                try {
+                    foreach ($missingModes as $mode) {
+                        $modeData = [];
+                        if ($mode === 'PPPOE') {
+                            $modeData = ['active' => [], 'secret' => []];
+                            $actives = $API->comm('/ppp/active/print', ['?service' => 'pppoe']);
+                            foreach ((array) $actives as $active) {
+                                if (!empty($active['name']) && !empty($active['address'])) {
+                                    $modeData['active'][$active['name']] = $active['address'];
+                                }
+                            }
+
+                            $secrets = $API->comm('/ppp/secret/print', ['?service' => 'pppoe']);
+                            foreach ((array) $secrets as $secret) {
+                                if (!empty($secret['name']) && !empty($secret['remote-address'])) {
+                                    $modeData['secret'][$secret['name']] = $secret['remote-address'];
+                                }
+                            }
+                        } elseif ($mode === 'Hotspot') {
+                            $actives = $API->comm('/ip/hotspot/active/print');
+                            foreach ((array) $actives as $active) {
+                                if (!empty($active['user']) && !empty($active['address'])) {
+                                    $modeData[$active['user']] = $active['address'];
+                                }
+                            }
+                        } elseif ($mode === 'Static') {
+                            $queues = $API->comm('/queue/simple/print');
+                            foreach ((array) $queues as $queue) {
+                                if (!empty($queue['name']) && !empty($queue['target'])) {
+                                    $modeData[$queue['name']] = trim(explode('/', $queue['target'], 2)[0]);
+                                }
+                            }
+                        }
+
+                        $routerModeData[$mode] = $modeData;
+                        $localCacheKey = $routerId . ':' . $mode;
+                        $this->customerIpRouterModeCache[$localCacheKey] = $modeData;
+                        $this->cache->save('customer_ip_' . (int) $routerId . '_' . md5($mode), $modeData, 15);
+                    }
+                } catch (RuntimeException $exception) {
+                    log_message('error', 'Failed to retrieve invoice customer IPs from router ' . $routerId . ': ' . $exception->getMessage());
+                    foreach ($routerCustomers as $customer) {
+                        $ipByCustomer[$customer->customer_id] = 'Gagal mengambil IP';
+                    }
+                } finally {
+                    $API->disconnect();
+                }
+            }
+
+            foreach ($routerCustomers as $customer) {
+                $username = $customer->user_mikrotik;
+                if ($customer->mode_user === 'PPPOE') {
+                    $modeData = isset($routerModeData['PPPOE']) ? $routerModeData['PPPOE'] : [];
+                    $ip = isset($modeData['active'][$username])
+                        ? $modeData['active'][$username]
+                        : (isset($modeData['secret'][$username]) ? $modeData['secret'][$username] : '-');
+                } elseif ($customer->mode_user === 'Hotspot') {
+                    $modeData = isset($routerModeData['Hotspot']) ? $routerModeData['Hotspot'] : [];
+                    $ip = isset($modeData[$username]) ? $modeData[$username] : '-';
+                } elseif ($customer->mode_user === 'Static') {
+                    $modeData = isset($routerModeData['Static']) ? $routerModeData['Static'] : [];
+                    $ip = isset($modeData[$username]) ? $modeData[$username] : '-';
+                } else {
+                    $ip = '-';
+                }
+
+                $ipByCustomer[$customer->customer_id] = html_escape($ip);
+            }
+        }
+
+        return $ipByCustomer;
+    }
+
+    private function prepareUnpaidInvoiceIpSearch()
+    {
+        $searchValue = isset($_POST['search']['value']) && is_string($_POST['search']['value'])
+            ? trim($_POST['search']['value'])
+            : '';
+        if ($searchValue === '' || !preg_match('/^[0-9a-fA-F:.]+$/', $searchValue) || (strpos($searchValue, '.') === false && strpos($searchValue, ':') === false)) {
+            return;
+        }
+
+        $customers = $this->db
+            ->where('router !=', 0)
+            ->where('user_mikrotik !=', '')
+            ->get('customer')
+            ->result();
+        $ipByCustomer = $this->getInvoiceCustomerIpMap($customers);
+        $matchingCustomerIds = [];
+
+        foreach ($ipByCustomer as $customerId => $ip) {
+            if (strpos($ip, $searchValue) !== false) {
+                $matchingCustomerIds[] = $customerId;
+            }
+        }
+
+        $_POST['ip_search'] = true;
+        $_POST['ip_customer_ids'] = $matchingCustomerIds;
+    }
+
     private function _menu()
     {
         $menu = $this->db->get_where('role_menu', ['role_id' => $this->session->userdata('role_id')])->row_array();
@@ -2275,7 +2440,9 @@ class Bill extends CI_Controller
     }
     public function getUnpaidInvoice()
     {
+        $this->prepareUnpaidInvoiceIpSearch();
         $result = $this->bill_m->getUnpaidInv();
+        $ipByCustomer = $this->getInvoiceCustomerIpMap($result);
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
@@ -2309,6 +2476,8 @@ class Bill extends CI_Controller
             } else {
                 $row[] = 'Area : Belum Terdafar <br> Alamat : ' . $result->address;
             }
+            $row[] = html_escape($result->cust_description);
+            $row[] = isset($ipByCustomer[$result->customer_id]) ? $ipByCustomer[$result->customer_id] : '-';
 
             $search  = array('{name}', '{noservices}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}',  '{slogan}', '{link}', '{e}');
             $replace = array($result->name, $result->no_services, indo_month($result->month), $result->year, indo_month($result->month) . ' ' . $result->year, indo_date($result->inv_due_date), $nominal, $company['company_name'], $company['sub_name'], base_url(), '%0A');
@@ -3448,8 +3617,11 @@ class Bill extends CI_Controller
         // $post_area = implode(',',$this->input->post('coverage', TRUE));
         // var_dump($post_area);die;
         $post = $this->input->post(null, TRUE);
+        if (isset($post['status']) && $post['status'] === 'BELUM BAYAR') {
+            $this->prepareUnpaidInvoiceIpSearch();
+        }
         $result = $this->bill_m->getfilterbycoverage($post);
-        
+        $ipByCustomer = $this->getInvoiceCustomerIpMap($result);
         $data = [];
         $company = $this->db->get('company')->row_array();
         $no = $_POST['start'];
@@ -3489,6 +3661,8 @@ class Bill extends CI_Controller
             } else {
                 $row[] = 'Area : Belum Terdafar <br> Alamat : ' . $result->address;
             }
+            $row[] = html_escape($result->cust_description);
+            $row[] = isset($ipByCustomer[$result->customer_id]) ? $ipByCustomer[$result->customer_id] : '-';
 
             $getuser = $this->db->get_where('user', ['id' => $result->create_by])->row_array();
             $search  = array('{name}', '{email}', '{noservices}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}', '{slogan}', '{link}', '{e}', '{receiver}');
