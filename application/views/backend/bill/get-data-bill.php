@@ -27,6 +27,8 @@
                         <th>Total</th>
                         <th>Status</th>
                         <th>Coverage</th>
+                        <th>Keterangan</th>
+                        <th>IP</th>
                         <th style="text-align: center">Aksi</th>
                     </tr>
                 </thead>
@@ -96,7 +98,7 @@
                 "type": "POST",
             },
             "columnDefs": [{
-                "targets": [0, 9],
+                "targets": [0, 9, 10, 11],
                 "orderable": false,
             }],
             "lengthMenu": [
@@ -147,7 +149,7 @@
                     "previous": "Previous"
                 },
                 search: "_INPUT_",
-                searchPlaceholder: "No Layanan, Nama"
+                searchPlaceholder: "<?= isset($post['status']) && $post['status'] === 'BELUM BAYAR' ? 'No Layanan, Nama, IP' : 'No Layanan, Nama' ?>"
             },
             "columnDefs": [{
                 "targets": [0, 1, 8],
