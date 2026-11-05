@@ -1590,6 +1590,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
             $rt = $this->db->get_where('router', ['id' => 1])->row_array();
             if ($rt['is_active'] == 1) {
                 $row[] =
@@ -1665,6 +1666,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
             $rt = $this->db->get_where('router', ['id' => 1])->row_array();
             if ($rt['is_active'] == 1) {
                 $row[] = '<a href="' . site_url('services/detail/') . $result->no_services . '"    title="Detail Paket" style="font-size: smaller"><i class="fa fa-eye" style="font-size:25px; color:gray"></i></a> 
@@ -1731,6 +1733,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
 
             $rt = $this->db->get_where('router', ['id' => 1])->row_array();
             if ($rt['is_active'] == 1) {
@@ -1797,6 +1800,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
             $rt = $this->db->get_where('router', ['id' => 1])->row_array();
             if ($rt['is_active'] == 1) {
                 $row[] = '<a href="' . site_url('services/detail/') . $result->no_services . '"    title="Detail Paket" style="font-size: smaller"><i class="fa fa-eye" style="font-size:25px; color:gray"></i></a> 
@@ -1861,6 +1865,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
             $rt = $this->db->get_where('router', ['id' => 1])->row_array();
             if ($rt['is_active'] == 1) {
                 $row[] = '<a href="' . site_url('services/detail/') . $result->no_services . '"    title="Detail Paket" style="font-size: smaller"><i class="fa fa-eye" style="font-size:25px; color:gray"></i></a> 
@@ -1936,6 +1941,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
 
             $row[] = ' <a href="' . site_url('services/detail/') . $result->no_services . '"    title="Detail Paket" style="font-size: smaller"><i class="fa fa-eye" style="font-size:25px; color:green"></i></a> 
                    <a href="' . site_url('customer/edit/') . $result->customer_id . '" title="Edit"><i class="fa fa-edit" style="font-size:25px"></i></a> 
@@ -2309,6 +2315,7 @@ class customer extends CI_Controller
                 $row[] = indo_currency($subtotal);
             }
             $row[] = $result->address;
+            $row[] = html_escape(indo_date($result->register_date));
             if ($rt['is_active'] == 1) {
                 $row[] = '<a href="' . site_url('services/detail/') . $result->no_services . '"    title="Detail Paket" style="font-size: smaller"><i class="fa fa-eye" style="font-size:25px; color:gray"></i></a> 
 <a href="' . site_url('customer/edit/') . $result->customer_id . '" title="Edit"><i class="fa fa-edit" style="font-size:25px"></i></a> 

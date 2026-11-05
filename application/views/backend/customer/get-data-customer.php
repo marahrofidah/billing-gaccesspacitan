@@ -36,6 +36,7 @@
                                 <th style="width: 100px">Tagihan / Bulan</th>
                             <?php } ?>
                             <th>Alamat</th>
+                            <th>Tanggal Daftar</th>
                             <th style="text-align: center">Aksi</th>
                         </tr>
                     </thead>
@@ -166,7 +167,7 @@
                 searchPlaceholder: "No Layanan, Nama"
             },
             "columnDefs": [{
-                "targets": [0, 1, 9],
+                "targets": [0, 1, 9, -2],
                 "orderable": false
             }],
 

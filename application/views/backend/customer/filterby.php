@@ -85,6 +85,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                         <?php } ?>
                         <th>ID Card</th>
                         <th>Alamat</th>
+                        <th>Tanggal Daftar</th>
 
                         <th style="text-align: center">Aksi</th>
 
@@ -180,6 +181,7 @@ FROM `services` JOIN `customer`  ON `customer`.`no_services` = `services`.`no_se
                             <td><?= $data->type_id ?> - <?= $data->no_ktp ?></td>
 
                             <td><?= $data->address ?></td>
+                            <td><?= html_escape(indo_date($data->register_date)) ?></td>
                             <td style="text-align: center">
                                 <?php if ($this->session->userdata('role_id') == 1 or $role['edit_customer'] == 1) { ?>
                                     <a href="<?= site_url('customer/edit/') ?><?= $data->customer_id ?>" title="Edit"><i class="fa fa-edit" style="font-size:25px"></i></a>
