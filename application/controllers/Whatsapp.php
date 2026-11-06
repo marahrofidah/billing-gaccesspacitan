@@ -335,6 +335,25 @@ class Whatsapp extends CI_Controller
         sendmsgbill($target, $message, $inv);
         redirect($_SERVER['HTTP_REFERER']);
     }
+    public function sendbillduedate($inv)
+    {
+        $invoice = $this->db->get_where('invoice', ['invoice' => $inv])->row_array();
+        $customer = $this->db->get_where('customer', ['no_services' => $invoice['no_services']])->row_array();
+        $other = $this->db->get('other')->row_array();
+        $company = $this->db->get('company')->row_array();
+        if ($customer['codeunique'] == 1) {
+            $codeunique = $invoice['code_unique'];
+        } else {
+            $codeunique = 0;
+        }
+        $nominalWA = $invoice['amount'] - $invoice['disc_coupon'] + $codeunique;
+        $creator = $this->db->get_where('user', ['id' => $invoice['create_by']])->row_array();
+        $search = array('{name}', '{noservices}', '{nova}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}', '{slogan}', '{link}', '{e}', '{receiver}');
+        $replace = array($customer['name'], $customer['no_services'], $invoice['no_va'], $invoice['month'], $invoice['year'], indo_month($invoice['month']) . ' ' . $invoice['year'], indo_date($invoice['inv_due_date']), $nominalWA, $company['company_name'], $company['sub_name'], base_url(), '', $creator['name']);
+        $message = str_replace($search, $replace, $other['body_wa']);
+        sendmsgschduedate(indo_tlp($customer['no_wa']), $message, time() + 5, $inv);
+        redirect($_SERVER['HTTP_REFERER']);
+    }
     public function lastweek()
     {
         $whatsapp = $this->db->get('whatsapp')->row_array();
