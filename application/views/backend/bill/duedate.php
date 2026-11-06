@@ -21,7 +21,7 @@
                     <button href="" class="btn btn-outline-primary dropdown-item" id="btn-pay-selected"><i class="fa fa-credit-card"></i> Bayar Yang Dipilih</button>
                     <?php $wa = $this->db->get('whatsapp')->row_array() ?>
                     <?php if ($wa['is_active'] == 1) { ?>
-                        <button href="" class="dropdown-item " id="btn-wa-selected"> <i class="fab fa-whatsapp"></i> Kirim Tagihan Yang Dipilih</button>
+                        <button href="" class="dropdown-item " id="btn-wa-selected"> <i class="fab fa-whatsapp"></i> Kirim Info Jatuh Tempo Yang Dipilih</button>
                     <?php } ?>
                     <?php if ($this->session->userdata('role_id') == 1 or $role['del_bill'] == 1) { ?>
                         <button href="" class="btn btn-outline-danger dropdown-item" id="btn-del-selected"><i class="fa fa-trash"></i> Hapus Yang Dipilih</button>
@@ -304,8 +304,8 @@
             }
         });
         $('#btn-wa-selected').click(function() {
-            $('#submit-cetak').attr('action', '<?php echo base_url('bill/sendwaselected') ?>').attr('target', '');
-            var confirm = window.confirm("Apakah Anda yakin akan kirim tagihan yang terpilih ?");
+            $('#submit-cetak').attr('action', '<?php echo base_url('bill/sendwaselectedduedate') ?>').attr('target', '');
+            var confirm = window.confirm("Apakah Anda yakin akan kirim info jatuh tempo yang terpilih ?");
             if (confirm) {
                 $("#submit-cetak").submit();
                 $("#popup").modal("show");

@@ -417,7 +417,7 @@ class Bill extends CI_Controller
             $getuser = $this->db->get_where('user', ['id' => $result->create_by])->row_array();
             $search  = array('{name}', '{noservices}', '{nova}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}',  '{slogan}', '{link}', '{e}', '{receiver}');
             $replace = array($result->name, $result->no_services, $result->no_va, $result->month, $result->year, indo_month($result->month) . ' ' . $result->year, indo_date($result->inv_due_date), $result->amount - $result->disc_coupon + $codeunique, $company['company_name'], $company['sub_name'], base_url(), '%0A', $getuser['name']);
-            $subject = $other['say_wa'];
+            $subject = $other['body_wa'];
             $subjectthanks = $other['thanks_wa'];
             $message = str_replace($search, $replace, $subject);
             $messagethanks = str_replace($search, $replace, $subjectthanks);
@@ -430,7 +430,7 @@ class Bill extends CI_Controller
         <a href="' . site_url('whatsapp/sendbillpaid/' . $result->invoice) . '"><i class="fab fa-whatsapp" style="font-size:20px; color:green"></i></a> ';
                 } else {
                     $action = '<a href="' . site_url('bill/detail/' . $result->invoice) . '" ><i class="fas fa-eye" style="font-size:20px; color:gray"></i></a> 
-        <a href="' . site_url('whatsapp/sendbillunpaid/' . $result->invoice) . '" ><i class="fab fa-whatsapp" style="font-size:20px; color:green"></i></a>
+        <a href="' . site_url('whatsapp/sendbillduedate/' . $result->invoice) . '" ><i class="fab fa-whatsapp" style="font-size:20px; color:green"></i></a>
         <a href="#" id="hapusmodal" data-no_servicess="' . $result->no_services . '" data-invoice_id="' . $result->invoice_id . '" data-yearr="' . $result->year . '" data-month="' . $result->month . '" data-name="' . $result->name . '" data-invoice="' . $result->invoice . '" data-periode="' . indo_month($result->month) . ' ' . $result->year . '"  data-toggle="modal" data-target="#DeleteModal" ><i class="fas fa-trash" style="font-size:20px; color:red"></i></a>';
                 }
             } else {
@@ -3057,6 +3057,47 @@ class Bill extends CI_Controller
             }
         }
 
+        redirect($_SERVER['HTTP_REFERER']);
+    }
+
+    public function sendwaselectedduedate()
+    {
+        $invoices = $this->input->post('invoice');
+        if (empty($invoices)) {
+            $this->session->set_flashdata('error-sweet', 'Belum ada tagihan yang dipilih');
+            redirect('bill/duedate');
+            return;
+        }
+
+        $other = $this->db->get('other')->row_array();
+        $company = $this->db->get('company')->row_array();
+        $whatsapp = $this->db->get('whatsapp')->row_array();
+        if ($whatsapp['is_active'] != 1) {
+            $this->session->set_flashdata('error-sweet', 'Whatsapp Gateway Non-Aktif');
+            redirect($_SERVER['HTTP_REFERER']);
+            return;
+        }
+
+        $invoices = array_values(array_unique($invoices));
+        $billRows = $this->bill_m->getInvoiceSelected($invoices)->result();
+        $delay = (int) $whatsapp['interval_message'];
+        $sequence = 0;
+        foreach ($billRows as $bill) {
+            if ($bill->status !== 'BELUM BAYAR') {
+                continue;
+            }
+
+            $codeunique = $bill->codeunique > 0 ? $bill->code_unique : 0;
+            $nominal = $bill->amount - $bill->disc_coupon + $codeunique;
+            $creator = $this->db->get_where('user', ['id' => $bill->create_by])->row_array();
+            $search = array('{name}', '{noservices}', '{nova}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}', '{slogan}', '{link}', '{e}', '{receiver}');
+            $replace = array($bill->name, $bill->no_services, $bill->no_va, $bill->month, $bill->year, indo_month($bill->month) . ' ' . $bill->year, indo_date($bill->inv_due_date), $nominal, $company['company_name'], $company['sub_name'], base_url(), '', $creator['name']);
+            $message = str_replace($search, $replace, $other['body_wa']);
+            $sendAt = date('Y-m-d H:i:s', time() + (++$sequence * $delay));
+            sendmsgschduedate(indo_tlp($bill->no_wa), $message, $sendAt, $bill->invoice);
+        }
+
+        $this->session->set_flashdata('success-sweet', 'Info jatuh tempo berhasil dijadwalkan untuk dikirim.');
         redirect($_SERVER['HTTP_REFERER']);
     }
 
