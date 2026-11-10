@@ -1,6 +1,10 @@
 <!-- Page Heading -->
 <?php $role = $this->db->get_where('role_management', ['role_id' => $this->session->userdata('role_id')])->row_array() ?>
 <?php $menu = $this->db->get_where('role_menu', ['role_id' => $this->session->userdata('role_id')])->row_array() ?>
+<?php $billFilter = isset($bill_filter) && is_array($bill_filter) ? $bill_filter : []; ?>
+<?php $selectedMonth = isset($billFilter['month']) ? (string) $billFilter['month'] : date('m'); ?>
+<?php $selectedYear = isset($billFilter['year']) ? (string) $billFilter['year'] : date('Y'); ?>
+<?php $selectedCoverage = isset($billFilter['coverage']) && is_array($billFilter['coverage']) ? $billFilter['coverage'] : []; ?>
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <?php if ($this->session->userdata('role_id') == 1 or $role['add_bill'] == 1) { ?>
         <a href="" id="#addModal" data-toggle="modal" data-target="#addModal" class="d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah</a>
@@ -27,10 +31,10 @@
                                         <option value="all">Semua</option>
                                         <?php
                                         foreach ($coverage as $r => $data) { ?>
-                                            <option value="<?= $data->coverage_id ?>"><?= $data->code_area ?> - <?= $data->c_name ?> </option>
+                                            <option value="<?= $data->coverage_id ?>" <?= in_array((string) $data->coverage_id, $selectedCoverage, true) ? 'selected' : '' ?>><?= $data->code_area ?> - <?= $data->c_name ?> </option>
                                         <?php } ?>
                                         <?php if ($this->session->userdata('role_id') == 1) { ?>
-                                            <option value="">Tanpa Area</option>
+                                            <option value="" <?= in_array('', $selectedCoverage, true) ? 'selected' : '' ?>>Tanpa Area</option>
                                         <?php } ?>
                                     </select>
                                 </div>
@@ -41,20 +45,20 @@
                                 <div class="form-group">
                                     <label for="">Bulan</label>
                                     <select class="form-control" style="width: 100%;" name="month" id="month" onchange="getdatabill()">
-                                        <option value="<?= date('m') ?>"><?= indo_month(date('m')); ?></option>
-                                        <option value="01">Januari</option>
-                                        <option value="02">Februari</option>
-                                        <option value="03">Maret</option>
-                                        <option value="04">April</option>
-                                        <option value="05">Mei</option>
-                                        <option value="06">Juni</option>
-                                        <option value="07">Juli</option>
-                                        <option value="08">Agustus</option>
-                                        <option value="09">September</option>
-                                        <option value="10">Oktober</option>
-                                        <option value="11">November</option>
-                                        <option value="12">Desember</option>
-                                        <option value="">Semua</option>
+                                        <option value="<?= date('m') ?>" <?= $selectedMonth === date('m') ? 'selected' : '' ?>><?= indo_month(date('m')); ?></option>
+                                        <option value="01" <?= $selectedMonth === '01' ? 'selected' : '' ?>>Januari</option>
+                                        <option value="02" <?= $selectedMonth === '02' ? 'selected' : '' ?>>Februari</option>
+                                        <option value="03" <?= $selectedMonth === '03' ? 'selected' : '' ?>>Maret</option>
+                                        <option value="04" <?= $selectedMonth === '04' ? 'selected' : '' ?>>April</option>
+                                        <option value="05" <?= $selectedMonth === '05' ? 'selected' : '' ?>>Mei</option>
+                                        <option value="06" <?= $selectedMonth === '06' ? 'selected' : '' ?>>Juni</option>
+                                        <option value="07" <?= $selectedMonth === '07' ? 'selected' : '' ?>>Juli</option>
+                                        <option value="08" <?= $selectedMonth === '08' ? 'selected' : '' ?>>Agustus</option>
+                                        <option value="09" <?= $selectedMonth === '09' ? 'selected' : '' ?>>September</option>
+                                        <option value="10" <?= $selectedMonth === '10' ? 'selected' : '' ?>>Oktober</option>
+                                        <option value="11" <?= $selectedMonth === '11' ? 'selected' : '' ?>>November</option>
+                                        <option value="12" <?= $selectedMonth === '12' ? 'selected' : '' ?>>Desember</option>
+                                        <option value="" <?= $selectedMonth === '' ? 'selected' : '' ?>>Semua</option>
                                     </select>
                                 </div>
                             </div>
@@ -64,26 +68,26 @@
                                 <div class="form-group">
                                     <label for="">Tahun</label>
                                     <select class="form-control" style="width: 100%;" name="year" id="year" onchange="getdatabill()">
-                                        <option value="<?= date('Y') ?>"><?= date('Y') ?></option>
+                                        <option value="<?= date('Y') ?>" <?= $selectedYear === date('Y') ? 'selected' : '' ?>><?= date('Y') ?></option>
                                         <?php if ($this->session->userdata('role_id') == 1) {  ?>
                                             <?php
                                             for ($i = date('Y') + 1; $i >= date('Y') - 2; $i -= 1) {
                                             ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                                <option value="<?= $i ?>" <?= $selectedYear === (string) $i ? 'selected' : '' ?>><?= $i ?></option>
                                             <?php } ?>
                                         <?php } ?>
                                         <?php if (date('m') == 12) {  ?>
                                             <?php
                                             for ($i = date('Y') + 1; $i >= date('Y') - 2; $i -= 1) {
                                             ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                                <option value="<?= $i ?>" <?= $selectedYear === (string) $i ? 'selected' : '' ?>><?= $i ?></option>
                                             <?php } ?>
                                         <?php } ?>
                                         <?php if (date('m') < 12) {  ?>
                                             <?php
                                             for ($i = date('Y'); $i >= date('Y') - 2; $i -= 1) {
                                             ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                                <option value="<?= $i ?>" <?= $selectedYear === (string) $i ? 'selected' : '' ?>><?= $i ?></option>
                                             <?php } ?>
                                         <?php } ?>
                                     </select>
@@ -280,6 +284,10 @@
                 <input type="hidden" id="to_email" name="to_email" value="<?= $company['email'] ?>" class="form-control">
                 <input type="hidden" id="yearr" name="year" class="form-control">
                 <input type="hidden" id="date_payment" name="date_payment" value="<?= date('Y-m-d') ?>" class="form-control">
+                <input type="hidden" id="return_coverage" name="return_coverage">
+                <input type="hidden" id="return_month" name="return_month">
+                <input type="hidden" id="return_year" name="return_year">
+                <input type="hidden" id="return_search" name="return_search">
                 <!-- PPN -->
 
 
@@ -547,6 +555,13 @@
     <script>
         $(document).ready(function() {
 
+            var unpaidBillFilter = <?= json_encode($billFilter, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT) ?>;
+            var restoreUnpaidSearch = Object.keys(unpaidBillFilter).length > 0;
+            if (restoreUnpaidSearch) {
+                $('#coverage').val(unpaidBillFilter.coverage || []);
+                $('#month').val(unpaidBillFilter.month);
+                $('#year').val(unpaidBillFilter.year);
+            }
             var coverage = $("#coverage").val();
             var status = $("#status").val();
             var month = $("#month").val();
@@ -573,6 +588,10 @@
                     $('.loading').html('');
                     $('.view_data').html(data);
                     $('#tablebill').hide();
+                    if (restoreUnpaidSearch && unpaidBillFilter.search) {
+                        $('#example').DataTable().search(unpaidBillFilter.search).draw();
+                    }
+                    restoreUnpaidSearch = false;
                 }
             });
             return false;
@@ -786,6 +805,14 @@
 <?php } ?>
 <script>
     $(document).on('submit', '#bill-paid-form', function() {
+        var searchInput = $('.view_data #example_filter input');
+        if (!searchInput.length) {
+            searchInput = $('#tablebill #example_filter input');
+        }
+        $('#return_coverage').val(JSON.stringify($('#coverage').val() || []));
+        $('#return_month').val($('#month').val());
+        $('#return_year').val($('#year').val());
+        $('#return_search').val(searchInput.val() || '');
         $('#popup').modal({
             backdrop: 'static',
             keyboard: false

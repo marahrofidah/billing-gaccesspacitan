@@ -775,7 +775,14 @@ class Bill_m extends CI_Model
             $this->db->where_in('coverage', $row);
             $this->db->where('status', 'SUDAH BAYAR');
             $this->db->where('month', date('m'));
-            if (isset($_POST['search']['value'])) {
+            if (!empty($_POST['ip_search'])) {
+                $customerIds = isset($_POST['ip_customer_ids']) ? $_POST['ip_customer_ids'] : [];
+                if (empty($customerIds)) {
+                    $this->db->where('customer.customer_id', 0);
+                } else {
+                    $this->db->where_in('customer.customer_id', $customerIds);
+                }
+            } elseif (isset($_POST['search']['value'])) {
                 $this->db->like('invoice.no_services', $_POST['search']['value']);
                 $this->db->or_like('name', $_POST['search']['value']);
                 $this->db->where('status', 'SUDAH BAYAR');
@@ -791,7 +798,14 @@ class Bill_m extends CI_Model
             if ($this->session->userdata('role_id') == 3) {
                 $this->db->where('invoice.create_by', $this->session->userdata('id'));
             }
-            if (isset($_POST['search']['value'])) {
+            if (!empty($_POST['ip_search'])) {
+                $customerIds = isset($_POST['ip_customer_ids']) ? $_POST['ip_customer_ids'] : [];
+                if (empty($customerIds)) {
+                    $this->db->where('customer.customer_id', 0);
+                } else {
+                    $this->db->where_in('customer.customer_id', $customerIds);
+                }
+            } elseif (isset($_POST['search']['value'])) {
                 $this->db->like('invoice.no_services', $_POST['search']['value']);
                 $this->db->or_like('name', $_POST['search']['value']);
                 $this->db->where('status', 'SUDAH BAYAR');
