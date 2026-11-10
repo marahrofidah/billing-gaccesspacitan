@@ -19,20 +19,20 @@
     <link href="<?= base_url('assets/backend/') ?>css/sb-admin-2.min.css" rel="stylesheet">
     <style>
         body.login-page {
-            background-color: #F4F7FC;
+            background-color: #394059;
             color: #394059;
         }
 
         .login-page .card {
-            background-color: #394059;
+            background-color: #FFFFFF;
             border-top: 4px solid #46FF23;
             border-radius: 0.75rem;
-            color: #F4F7FC;
+            color: #394059;
         }
 
         .login-page .text-center,
         .login-page .custom-control-label {
-            color: #F4F7FC;
+            color: #394059;
         }
 
         .login-page .form-control {
@@ -41,7 +41,7 @@
         }
 
         .login-page hr {
-            border-color: rgba(244, 247, 252, 0.25);
+            border-color: rgba(57, 64, 89, 0.2);
         }
 
         .login-page .form-control:focus {
@@ -73,7 +73,7 @@
         }
 
         .login-page a {
-            color: #F4F7FC;
+            color: #394059;
         }
 
         .login-page a:hover {

@@ -152,7 +152,7 @@ class Bill extends CI_Controller
         return $ipByCustomer;
     }
 
-    private function prepareUnpaidInvoiceIpSearch()
+    private function prepareInvoiceIpSearch()
     {
         $searchValue = isset($_POST['search']['value']) && is_string($_POST['search']['value'])
             ? trim($_POST['search']['value'])
@@ -591,6 +591,7 @@ class Bill extends CI_Controller
         }
         $data['title'] = 'Belum Bayar';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $data['bill_filter'] = $this->session->flashdata('unpaid_bill_filter');
 
         $data['invoice'] = $this->bill_m->invoice_no();
         $data['company'] = $this->db->get('company')->row_array();
@@ -1947,6 +1948,19 @@ class Bill extends CI_Controller
     public function billpaid()
     {
         $post = $this->input->post(null, TRUE);
+        if (isset($post['return_coverage'])) {
+            $coverageFilter = json_decode($post['return_coverage'], true);
+            if (!is_array($coverageFilter)) {
+                $coverageFilter = [];
+            }
+            $coverageFilter = array_values(array_map('strval', array_filter($coverageFilter, 'is_scalar')));
+            $this->session->set_flashdata('unpaid_bill_filter', [
+                'coverage' => $coverageFilter,
+                'month' => isset($post['return_month']) ? $post['return_month'] : date('m'),
+                'year' => isset($post['return_year']) ? $post['return_year'] : date('Y'),
+                'search' => isset($post['return_search']) ? $post['return_search'] : '',
+            ]);
+        }
         $invoice = $this->input->post('invoice');
         $invoicedetail =  $this->db->get_where('invoice', ['invoice' => $post['invoice']])->row_array();
         $cekConfirm = $this->db->get_where('confirm_payment', ['invoice_id' => $post['invoice']])->row_array();
@@ -2440,7 +2454,7 @@ class Bill extends CI_Controller
     }
     public function getUnpaidInvoice()
     {
-        $this->prepareUnpaidInvoiceIpSearch();
+        $this->prepareInvoiceIpSearch();
         $result = $this->bill_m->getUnpaidInv();
         $ipByCustomer = $this->getInvoiceCustomerIpMap($result);
         $data = [];
@@ -2526,8 +2540,9 @@ class Bill extends CI_Controller
     }
     public function getPaidInvoice()
     {
+        $this->prepareInvoiceIpSearch();
         $result = $this->bill_m->getPaidInv();
-        // var_dump($result);die;
+        $ipByCustomer = $this->getInvoiceCustomerIpMap($result);
         $data = [];
         $no = $_POST['start'];
         foreach ($result as $result) {
@@ -2559,6 +2574,7 @@ class Bill extends CI_Controller
             } else {
                 $row[] = 'Area : Belum Terdafar <br> Alamat : ' . $result->address;
             }
+            $row[] = isset($ipByCustomer[$result->customer_id]) ? $ipByCustomer[$result->customer_id] : '-';
             $getuser = $this->db->get_where('user', ['id' => $result->create_by])->row_array();
             $search  = array('{name}', '{noservices}', '{email}', '{month}', '{year}', '{period}', '{duedate}', '{nominal}', '{companyname}',  '{slogan}', '{link}', '{e}', '{receiver}');
             $replace = array($result->name, $result->no_services, $result->email, indo_month($result->month), $result->year, indo_month($result->month) . ' ' . $result->year, indo_date($result->inv_due_date), $nominal, $company['company_name'], $company['sub_name'], base_url(), '%0A', $getuser['name']);
@@ -3658,8 +3674,8 @@ class Bill extends CI_Controller
         // $post_area = implode(',',$this->input->post('coverage', TRUE));
         // var_dump($post_area);die;
         $post = $this->input->post(null, TRUE);
-        if (isset($post['status']) && $post['status'] === 'BELUM BAYAR') {
-            $this->prepareUnpaidInvoiceIpSearch();
+        if (isset($post['status']) && in_array($post['status'], ['BELUM BAYAR', 'SUDAH BAYAR'], true)) {
+            $this->prepareInvoiceIpSearch();
         }
         $result = $this->bill_m->getfilterbycoverage($post);
         $ipByCustomer = $this->getInvoiceCustomerIpMap($result);

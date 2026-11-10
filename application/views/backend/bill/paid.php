@@ -148,6 +148,7 @@
                                 <th>Total</th>
                                 <th>Status</th>
                                 <th>Coverage</th>
+                                <th>IP</th>
                                 <th style="text-align: center">Aksi</th>
                             </tr>
                         </thead>
@@ -806,10 +807,10 @@
                         "previous": "Previous"
                     },
                     search: "_INPUT_",
-                    searchPlaceholder: "No Layanan, Nama"
+                    searchPlaceholder: "No Layanan, Nama, IP"
                 },
                 "columnDefs": [{
-                    "targets": [0, 1, 8],
+                    "targets": [0, 1, 8, 9],
                     "orderable": false
                 }]
             });
