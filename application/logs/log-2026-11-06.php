@@ -6384,3 +6384,132 @@ ERROR - 2026-11-06 09:46:08 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-06 09:46:33 --> 404 Page Not Found: Assets/images
 ERROR - 2026-11-06 15:46:34 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 419
 >>>>>>> 3c2b3f4b3fd9dfb64ef702c0adb116e4281f735f
+ERROR - 2026-11-06 15:58:04 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-06 15:58:04 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-06 09:58:04 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:05 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 905
+ERROR - 2026-11-06 09:58:07 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:07 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 419
+ERROR - 2026-11-06 09:58:24 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:24 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1240
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 15:58:25 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 09:58:26 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 832
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 2389
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> unserialize(): Error at offset 0 of 421057 bytes C:\xampp\htdocs\billing-gaccesspacitan\system\libraries\Cache\drivers\Cache_file.php 275
+ERROR - 2026-11-06 15:58:26 --> Severity: Warning --> Trying to access array offset on false C:\xampp\htdocs\billing-gaccesspacitan\system\libraries\Cache\drivers\Cache_file.php 277
+ERROR - 2026-11-06 09:58:27 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:27 --> Severity: Warning --> Undefined property: stdClass::$no_va C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 419
+ERROR - 2026-11-06 09:58:56 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:56 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1240
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 15:58:57 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 09:58:58 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:58:58 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 15:59:07 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 15:59:09 --> Severity: Warning --> Trying to access array offset on int C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedebt.php 7
+ERROR - 2026-11-06 09:59:46 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 09:59:54 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 09:59:59 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 15:59:59 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 16:00:02 --> Severity: Warning --> Trying to access array offset on int C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedebt.php 7
+ERROR - 2026-11-06 10:01:57 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 10:02:03 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 10:02:09 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 16:02:09 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1240
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 280
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined variable $invoice C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\paid.php 479
+ERROR - 2026-11-06 10:02:10 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 16:02:10 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 905
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 194
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 217
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 250
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 253
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 278
+ERROR - 2026-11-06 16:02:13 --> Severity: Warning --> Undefined variable $subtotal C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedotmatrix.php 281
+ERROR - 2026-11-06 10:02:31 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 16:02:31 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 16:02:32 --> Severity: Warning --> Trying to access array offset on int C:\xampp\htdocs\billing-gaccesspacitan\application\views\backend\bill\invoicedebt.php 7
+ERROR - 2026-11-06 10:04:35 --> 404 Page Not Found: Assets/images
+ERROR - 2026-11-06 16:04:35 --> Severity: Warning --> Undefined array key "lengt" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 841
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1240
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1062
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1122
+ERROR - 2026-11-06 16:04:36 --> Severity: Warning --> Undefined array key "coverage" C:\xampp\htdocs\billing-gaccesspacitan\application\models\Bill_m.php 1173
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
+ERROR - 2026-11-06 16:06:17 --> Severity: Warning --> Trying to access array offset on null C:\xampp\htdocs\billing-gaccesspacitan\application\controllers\Bill.php 3710
