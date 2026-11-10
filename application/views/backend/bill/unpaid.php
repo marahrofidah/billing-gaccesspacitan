@@ -566,6 +566,7 @@
             var status = $("#status").val();
             var month = $("#month").val();
             var year = $("#year").val();
+            prepareUnpaidFilteredTable();
             $.ajax({
                 type: 'POST',
                 data: "&coverage=" + coverage + "&status=" + status + "&month=" + month + "&year=" + year,
@@ -862,11 +863,21 @@
     })
 </script>
 <script>
+    function prepareUnpaidFilteredTable() {
+        $('#tablebill #example, .view_data #example').each(function() {
+            if ($.fn.DataTable.isDataTable(this)) {
+                $(this).DataTable().destroy();
+            }
+        });
+        $('#tablebill').remove();
+    }
+
     function getdatabill() {
         var coverage = $("#coverage").val();
         var status = $("#status").val();
         var month = $("#month").val();
         var year = $("#year").val();
+        prepareUnpaidFilteredTable();
         // alert(month);
         // alert(year);
         $.ajax({
