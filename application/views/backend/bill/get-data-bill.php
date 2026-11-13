@@ -1,11 +1,16 @@
+<?php
+$coverageFilter = isset($post['coverage']) ? $post['coverage'] : '';
+if (!is_array($coverageFilter)) {
+    $coverageFilter = $coverageFilter === '' ? [] : explode(',', (string) $coverageFilter);
+}
+?>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
 <!-- Custom styles for this page -->
 <link href="<?= base_url('assets/backend/') ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-<input type="hidden" id="status" value="<?= $post['status'] ?>">
-<input type="hidden" id="coverage" value="<?= $post['coverage'] ?>">
-<input type="hidden" id="month" value="<?= $post['month'] ?>">
-<input type="hidden" id="year" value="<?= $post['year'] ?>">
-<?php $coverage = $this->db->get_where('coverage', ['coverage_id' => $post['coverage']])->row_array() ?>
+<input type="hidden" id="bill-filter-status" value="<?= html_escape($post['status']) ?>">
+<input type="hidden" id="bill-filter-coverage" value="<?= html_escape(json_encode(array_values($coverageFilter))) ?>">
+<input type="hidden" id="bill-filter-month" value="<?= html_escape($post['month']) ?>">
+<input type="hidden" id="bill-filter-year" value="<?= html_escape($post['year']) ?>">
 
 <div class="table-responsive">
     <form method="post" action="<?php echo base_url('bill/printinvoiceselected') ?>" id="submit-cetak">
@@ -70,10 +75,14 @@
 <script>
     $(document).ready(function() {
 
-        var coverage = $("#coverage").val();
-        var status = $("#status").val();
-        var month = $("#month").val();
-        var year = $("#year").val();
+        var coverage = JSON.parse($("#bill-filter-coverage").val());
+        if (coverage.length === 0) {
+            coverage = '';
+        }
+        var status = $("#bill-filter-status").val();
+        var month = $("#bill-filter-month").val();
+        var year = $("#bill-filter-year").val();
+        var initialSearch = <?= json_encode(isset($post['search']) && is_string($post['search']) ? $post['search'] : '', JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT) ?>;
         // DataTable
         $('#example').DataTable({
 
@@ -82,6 +91,9 @@
             "paging": true,
             "lengthChange": true,
             "searching": true,
+            "search": {
+                "search": initialSearch
+            },
             "info": true,
             "autoWidth": true,
             "responsive": true,
@@ -157,25 +169,8 @@
             }]
 
         });
-
     });
 </script>
-
-
-<script src="<?= base_url('assets/backend/') ?>vendor/datatables/jquery.dataTables.min.js"></script>
-<script src="<?= base_url('assets/backend/') ?>vendor/datatables/dataTables.bootstrap4.min.js"></script>
-<!-- Page level custom scripts -->
-<script src="<?= base_url('assets/backend/') ?>js/demo/datatables-demo.js"></script>
-<script src="<?= base_url('assets/backend/') ?>js/select2.full.min.js"></script>
-<script src="<?= base_url('assets/backend/') ?>moment.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
 <script>
     $(document).ready(function() {
         $("#selectAll").click(function() {

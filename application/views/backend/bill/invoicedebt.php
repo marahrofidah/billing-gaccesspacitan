@@ -13,8 +13,10 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #FAFAFA;
+            background-color: #fff;
             font: 12pt "Tahoma";
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         * {
@@ -29,8 +31,10 @@
             margin: 1cm auto;
             border: 1px #D3D3D3 solid;
             border-radius: 5px;
-            background: white;
+            background: #fff;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .invoice h3 {
@@ -86,6 +90,13 @@
         }
 
         @media print {
+            body,
+            .page {
+                background: #fff !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
             .page {
                 margin: 0;
                 border: initial;
@@ -93,7 +104,6 @@
                 width: initial;
                 min-height: initial;
                 box-shadow: initial;
-                background: initial;
                 page-break-after: always;
             }
         }

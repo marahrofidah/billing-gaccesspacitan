@@ -557,6 +557,7 @@
 
             var unpaidBillFilter = <?= json_encode($billFilter, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT) ?>;
             var restoreUnpaidSearch = Object.keys(unpaidBillFilter).length > 0;
+            var initialSearch = restoreUnpaidSearch ? (unpaidBillFilter.search || '') : '';
             if (restoreUnpaidSearch) {
                 $('#coverage').val(unpaidBillFilter.coverage || []);
                 $('#month').val(unpaidBillFilter.month);
@@ -566,10 +567,15 @@
             var status = $("#status").val();
             var month = $("#month").val();
             var year = $("#year").val();
-            prepareUnpaidFilteredTable();
             $.ajax({
                 type: 'POST',
-                data: "&coverage=" + coverage + "&status=" + status + "&month=" + month + "&year=" + year,
+                data: {
+                    coverage: coverage,
+                    status: status,
+                    month: month,
+                    year: year,
+                    search: initialSearch
+                },
                 cache: false,
                 url: '<?= site_url('bill/getdatabillcoverage') ?>',
                 cache: false,
@@ -587,12 +593,9 @@
                 success: function(data) {
 
                     $('.loading').html('');
+                    prepareUnpaidFilteredTable();
                     $('.view_data').html(data);
                     $('#tablebill').hide();
-                    if (restoreUnpaidSearch && unpaidBillFilter.search) {
-                        $('#example').DataTable().search(unpaidBillFilter.search).draw();
-                    }
-                    restoreUnpaidSearch = false;
                 }
             });
             return false;
@@ -728,82 +731,6 @@
 
     });
 </script>
-<?php if ($totalcustomer < 500) { ?>
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable({
-                "processing": true,
-                "serverSide": true,
-                "paging": true,
-                "lengthChange": true,
-                "searching": true,
-                "info": true,
-                "autoWidth": true,
-                "responsive": true,
-                "order": [],
-                "ajax": {
-                    "url": "<?= base_url('bill/getUnpaidInvoice'); ?>",
-                    "type": "POST"
-                },
-                "lengthMenu": [
-                    [50, 100, 250, 500, 1000],
-                    [50, 100, 250, 500, 1000]
-                ],
-                dom: 'lBfrtip',
-                buttons: [{
-                        extend: ['copy'],
-                        exportOptions: {
-                            columns: ':visible'
-                        }
-                    },
-                    {
-                        extend: ['csv'],
-                        exportOptions: {
-                            columns: ':visible'
-                        }
-                    },
-                    {
-                        extend: ['excel'],
-                        exportOptions: {
-                            columns: ':visible'
-                        }
-                    },
-                    {
-                        extend: ['pdf'],
-                        exportOptions: {
-                            columns: ':visible'
-                        }
-                    },
-                    {
-                        extend: ['print'],
-                        exportOptions: {
-                            columns: ':visible'
-                        }
-                    },
-                    'colvis'
-                ],
-
-                "language": {
-                    "emptyTable": "Tidak ada data",
-                    "zeroRecords": "Tidak ada data",
-                    "info": "Showing <b>_START_</b> to <b>_END_ of _TOTAL_</b> entries",
-                    "paginate": {
-                        "first": "First",
-                        "last": "Last",
-                        "next": "Next",
-                        "previous": "Previous"
-                    },
-                    search: "_INPUT_",
-                    searchPlaceholder: "No Layanan, Nama, IP"
-                },
-                "columnDefs": [{
-                    "targets": [0, 1, 9, 10, 11],
-                    "orderable": false
-                }]
-            });
-        });
-    </script>
-<?php } ?>
 <script>
     $(document).on('submit', '#bill-paid-form', function() {
         var searchInput = $('.view_data #example_filter input');
@@ -882,7 +809,12 @@
         // alert(year);
         $.ajax({
             type: 'POST',
-            data: "&coverage=" + coverage + "&status=" + status + "&month=" + month + "&year=" + year,
+            data: {
+                coverage: coverage,
+                status: status,
+                month: month,
+                year: year
+            },
             cache: false,
             url: '<?= site_url('bill/getdatabillcoverage') ?>',
             cache: false,
@@ -900,6 +832,7 @@
             success: function(data) {
 
                 $('.loading').html('');
+                prepareUnpaidFilteredTable();
                 $('.view_data').html(data);
                 $('#tablebill').hide();
             }
